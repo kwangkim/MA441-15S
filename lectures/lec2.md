@@ -30,5 +30,11 @@ Assume problem A is reducible to an easy problem B. If we can solve problem B, t
 [LINK](http://tube.geogebra.org/material/show/id/592941)
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/592941/width/800/height/623/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="623px" style="border:0px;"> </iframe>
 
+#### tangent line
+
 **"Tangent"** means touching. So tangent line to a curve is a line that touches the curve.
 ![Tangent line from Wolfram](http://mathworld.wolfram.com/images/eps-gif/TangentLine_1000.gif)
+
+The Secant line \\(\overline{PQ}\\) is the line passing through point \\(P\\) and \\(Q\\).
+
+![Tangent and secant](http://www.themathpage.com/acalc/calc_IMG/004c.gif)

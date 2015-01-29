@@ -68,6 +68,8 @@ instantaneous~velocity =?=slope~of~tangent~line
 
 Born: 25 December 1642
 
-Principia Mathematica
+Principia Mathematica(1687) 
 
 ![Principia Mathematica](http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/NewtonsPrincipia.jpg/220px-NewtonsPrincipia.jpg)
+
+[Calculus](http://en.wikipedia.org/wiki/Calculus)

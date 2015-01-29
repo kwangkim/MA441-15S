@@ -40,9 +40,9 @@ How can you find the slope of the secan tline \\(\overline{PQ}\\), \\(m_{PQ}\\)?
 <div class="col-md-6">
 ![Tangent and secant](http://www.themathpage.com/acalc/calc_IMG/004c.gif)
 </dv>
-$$
+\\[
 m_{PQ}=\\frac{y_2-y_1}{x_2-x_1}
-$$
+\\]
 </div>
 
 

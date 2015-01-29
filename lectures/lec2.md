@@ -45,6 +45,6 @@ How can you find the slope of the secan tline \\(\overline{PQ}\\), \\(m_{PQ}\\)?
 m_{PQ}=\\frac{y_2-y_1}{x_2-x_1}
 \\]
 </div>
-
+#### How can you calculate the slope of tangent line at a point \\(P\\)?
 
 

@@ -11,10 +11,10 @@ highlighter: pygments
 excerpt_separator: ""
 
 ### content configuration ###
-title:       "CS203"
-keywords:    "QCC, CS203"
+title:       "MA441"
+keywords:    "QCC, MA441"
 description: "CS203"
-source_link: "https://qcc-cs203.github.com/qcc-cs203.github.io"
+source_link: "https://github.com/kwangkim/MA441.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 #google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
@@ -31,10 +31,10 @@ colors:
   turquoise: '#0fbfcf'
 
 course:
-  name: 'CS203 - Algorithmic Problem Solving II'
-  short: 'CS203'
+  name: 'MA441 Analytic Geometry and Calculus I'
+  short: 'MA441'
   semester: '2015 Spring'
-  section: 'D124' 
+  section: 'B124' 
   instructor: 'KWANG KIM'
   instructor_email: "kkim@qcc.cuny.edu"
   dept:  'Mathematics and Computer Science'

@@ -64,6 +64,6 @@ instantaneous~velocity =?=slope~of~tangent~line
 \\]
 
 #### [Newton](http://en.wikipedia.org/wiki/Isaac_Newton)
-![newton](http://en.wikipedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg)
+![newton](http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/NewtonsPrincipia.jpg/220px-NewtonsPrincipia.jpg)
 Born: 25 December 1642
-Principia Mathematica ![Principia Mathematica](25 December 1642)
+Principia Mathematica ![Principia Mathematica](http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/NewtonsPrincipia.jpg/220px-NewtonsPrincipia.jpg)

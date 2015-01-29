@@ -28,7 +28,7 @@ Assume problem A is reducible to an easy problem B. If we can solve problem B, t
 
 ##### Approximating area of a function
 
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/F1f1Sllb/width/800/height/623/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="623px" style="border:0px;"> </iframe>
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/592941/width/800/height/623/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="623px" style="border:0px;"> </iframe>
 
 **"Tangent"** means touching. So tangent line to a curve is a line that touches the curve.
 ![Tangent line from Wolfram](http://mathworld.wolfram.com/images/eps-gif/TangentLine_1000.gif)

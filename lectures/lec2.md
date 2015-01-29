@@ -33,8 +33,12 @@ Assume problem A is reducible to an easy problem B. If we can solve problem B, t
 #### tangent line
 
 **"Tangent"** means touching. So tangent line to a curve is a line that touches the curve.
-![Tangent line from Wolfram](http://mathworld.wolfram.com/images/eps-gif/TangentLine_1000.gif)
-
-The Secant line \\(\overline{PQ}\\) is the line passing through point \\(P\\) and \\(Q\\).
+The **Secant line** \\(\overline{PQ}\\) is the line passing through point \\(P\\) and \\(Q\\).
 
 ![Tangent and secant](http://www.themathpage.com/acalc/calc_IMG/004c.gif)
+How can you find the slope of the secan tline \\(\overline{PQ}\\), \\(m_{PQ}\\)?
+$$
+
+m_{PQ}=\\frac{y_2-y_1}{x_2-x_!}
+
+$$

@@ -12,7 +12,15 @@
 ![Function](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/220px-Function_machine2.svg.png)
 
 **Function** is a relation between a set of inputs (X) and a set of possible outputs (Y) with the following property.
-> For each x in X, there **exists** the **unique** y in Y
+> For each x in X, there exists the unique y in Y
+
+Therefore, the limit of a **function** is about the relation between **x'**s and **y's**.
+
+Now let me recall the tangent line of \\y=\frac{x^2}{4}\\) at \\( x_0=2\\). 
+The slope of secant line was given by
+\\[
+\frac{\Delta y}{\Delta y}=\frac{f(x_0 + \delta x) - f(x_0)}{x_0+\delta x-x_0}=\frac{f(\delta x+x_0)-f(x)}{\delta x}
+\\]
 
 
 #### [Divide and conquer](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithms)

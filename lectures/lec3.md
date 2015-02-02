@@ -26,17 +26,11 @@ For example, if \\(\Delta x=1\\), then
 \\]
 #### table
 
-
 slope         | 1.25|1.125| 1.0025|1.00025|**1.00003**|**0.99998**  |
 --------------|-----|-----|-------|-------|-----------|-------------|
 \\(\Delta x\\)|  1  |0.5  |0.01   |0.001  |0.000    1 | -0.0001     |
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 #### graph.
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/611503/width/800/height/547/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="547px" style="border:0px;"> </iframe>
 

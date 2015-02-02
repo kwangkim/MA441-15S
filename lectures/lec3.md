@@ -33,17 +33,23 @@ slope         | 1.25|1.125| 1.0025|1.00025|**1.00003**|**0.99998**
 --------------------------------------------------------------------
 #### graph.
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/611503/width/800/height/547/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="547px" style="border:0px;"> </iframe>
+From the table and the graph, we expect that
 \\[
-\lim_{\Delta x \to 0}\frac{}{}=the~slope~of~tagent~line~at~x_0=1
+\lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}=the~slope~of~tagent~line~at~x_0=1
 \\]
-Here we can **approximate** the values d$\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}$ ** as accurate as we want**.g the with values of the slope of secant lines by choosing very small \\(\Delta x\)). In other words, eventually, we can approximate **locally**.
+Here we can **approximate** the values of $\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}$ ** as accurate as we want**.g the with values of the slope of secant lines by choosing very small \\(\Delta x\)). In other words, eventually, we can approximate **locally**.
 ### function example
+
 #### table
 
 #### result
 
-### definition
-
+### definition of the limit of a function \\(y=f(x)\\) at \\(x=x_0\\).
+> Suppose f 􏰁x􏰂 is defined when x is near the number a. (This means that f is defined on some open interval that contains a, except possibly at a itself.) Then we write
+\\[
+\lim_{x\to x_0}f(x)=L
+\\]
+and say "the limit of f(x), as x approaches a, equals L".
 
 ### calculator error
 

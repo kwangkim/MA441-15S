@@ -52,6 +52,10 @@ Here we can **approximate** the values of $\frac{f(\Delta x+x_0)-f(x_0)}{\Delta 
 and say "the limit of f(x), as x approaches a, equals L".
 if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to a.
 
+Facts
+* Do not forget. $x\neq x_0$.
+* f(x) need not even be defined when \\(x=x_0\\)
+
 ### calculator error
 
 ### importance of graph with \\(y=sin(\pi/x)\\)

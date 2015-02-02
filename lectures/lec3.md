@@ -33,20 +33,29 @@ slope         | 1.25|1.125| 1.0025|1.00025|**1.00003**|**0.99998**
 --------------|-----|-----|-------|-------|-----------|-------------|
 #### graph.
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/611503/width/800/height/547/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="547px" style="border:0px;"> </iframe>
+
 From the table and the graph, we expect that
+
 \\[
 \lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}=the~slope~of~tagent~line~at~x_0=1
 \\]
+
 Here we can **approximate** the values of $\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}$ ** as accurate as we want**.g the with values of the slope of secant lines by choosing very small \\(\Delta x\)). In other words, eventually, we can approximate **locally**.
+
 ### function example
+
 Let \\(f(x)=(x-4)^3+3\\)
 \\[
 \lim_{x\to 4} f(x)=?
 \\]
+
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/612203/width/800/height/631/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="631px" style="border:0px;"> </iframe>
+
 #### result
+
 ### definition of the limit of a function \\(y=f(x)\\) at \\(x=x_0\\).
-> Suppose f 􏰁x􏰂 is defined when x is near the number a. (This means that f is defined on some open interval that contains a, except possibly at a itself.) Then we write
+
+> Suppose f(x) defined when x is near the number a except x=a. (This means that f is defined on some open interval that contains a, except possibly at a itself.) Then we write
 \\[
 \lim_{x\to x_0}f(x)=L
 \\]
@@ -54,8 +63,10 @@ and say "the limit of f(x), as x approaches a, equals L".
 if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to a.
 
 Facts
+
 * Do not forget. \\(x\neq x_0\\).
 * \\(f(x)\\) need not even be defined when \\(x=x_0\\)
+* 
 ### Example 1
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/53830/width/800/height/486/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="486px" style="border:0px;"> </iframe>
@@ -63,9 +74,9 @@ Facts
 ### Example 2
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/612225/width/800/height/647/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="647px" style="border:0px;"> </iframe>
 
-
-### importance of graph with \\(y=sin(\pi/x)\\)
+### importance of graph with \\(y=sin(\frac{\pi}{x})\\)
 #### Make the table.
+
 
 ####Graph.
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/68050/width/800/height/700/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="700px" style="border:0px;"> </iframe>

@@ -50,6 +50,7 @@ Here we can **approximate** the values of $\frac{f(\Delta x+x_0)-f(x_0)}{\Delta 
 \lim_{x\to x_0}f(x)=L
 \\]
 and say "the limit of f(x), as x approaches a, equals L".
+if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to a.
 
 ### calculator error
 

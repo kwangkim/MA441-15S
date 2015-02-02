@@ -1,8 +1,3 @@
-###Student pack
-{:.left}
-
- * [Github student Developer Pack](https://education.github.com/pack)
-
 ###How to setup your tigermail with smartphone
 {:.left}
 - iphone : http://www.qcc.cuny.edu/qccOnline/iphoneInst.html

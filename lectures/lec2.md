@@ -52,11 +52,11 @@ m_{PQ}=\\frac{y_2-y_1}{x_2-x_1}
 From above experiment, what do you expect?
 
 #### Physics
-Let \\(y=f(x)\) is a position function of a car  at time \\(x\\).
+Let \\(y=f(x)\\) is a position function of a car  at time \\(x\\).
 
 
 \\[
-average~velocity=\\frac{\Delta distance}{\D time}=\\frac{\Delta y}{\Delta x}=slope~of~secant~line
+average~velocity=\\frac{\Delta distance}{\Delta time}=\\frac{\Delta y}{\Delta x}=slope~of~secant~line
 \\]
 How about an instantaneous velocity at time \\(x\\).
 \\[

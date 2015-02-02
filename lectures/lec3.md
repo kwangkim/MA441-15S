@@ -16,11 +16,17 @@
 
 Therefore, the limit of a **function** is about the relation between **x'**s and **y's**.
 
-Now let me recall the tangent line of \\y=\frac{x^2}{4}\\) at \\( x_0=2\\). 
-The slope of secant line was given by
+Now let me recall the tangent line of \\(y=\frac{x^2}{4}\\) at \\( x_0=2\\). 
+The slope of secant line of \\( (x_0,f(x_0))\\) and \\((x_0+\Delta x,f(x_0+\Delta x))\\)  is given by
 \\[
-\frac{\Delta y}{\Delta y}=\frac{f(x_0 + \delta x) - f(x_0)}{x_0+\delta x-x_0}=\frac{f(\delta x+x_0)-f(x)}{\delta x}
+\frac{\Delta y}{\Delta x}=\frac{f(x_0 + \Delta x) - f(x_0)}{x_0+\Delta x-x_0}=\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}
 \\]
+For example, if \\(\Delta x=1\\), then
+\\[
+\frac{\Delta y}{\Delta x}=\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}=\frac{f(2+1)-f(2)}{1}=\frac{}{}
+\\]
+
+
 
 
 #### [Divide and conquer](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithms)

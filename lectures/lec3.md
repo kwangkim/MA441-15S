@@ -12,7 +12,7 @@
 ![Function](http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Function_machine2.svg/220px-Function_machine2.svg.png)
 
 **Function** is a relation between a set of inputs (X) and a set of possible outputs (Y) with the following property.
-> For each x in X, there exists the unique y in Y
+> For each x in X, there **exists** the **unique** y in Y
 
 
 #### [Divide and conquer](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithms)

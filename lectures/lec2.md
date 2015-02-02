@@ -47,13 +47,13 @@ m_{PQ}=\\frac{y_2-y_1}{x_2-x_1}
 </div>
 </div>
 #### How can you calculate the slope of tangent line at a point \\(P\\)?
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/49718/width/800/height/350/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="350px" style="border:0px;"> </iframe>
+Find the slope of tangent line of \\(f(x)=\frac{x^2}{4}\\) at \\(x=2\\).
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/611503/width/800/height/547/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="547px" style="border:0px;"> </iframe>
 
 From above experiment, what do you expect?
 
 #### Physics
 Let \\(y=f(x)\\) is a position function of a car  at time \\(x\\).
-
 
 \\[
 average~velocity=\\frac{\Delta distance}{\Delta time}=\\frac{\Delta y}{\Delta x}=slope~of~secant~line

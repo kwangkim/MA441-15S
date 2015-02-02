@@ -22,7 +22,7 @@ The slope of secant line of \\( (x_0,f(x_0))\\) and \\((x_0+\Delta x,f(x_0+\Delt
 \\]
 For example, if \\(\Delta x=1\\), then
 \\[
-\frac{\Delta y}{\Delta x}=\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}=\frac{f(2+1)-f(2)}{1}=\frac{2.25-1}{1}=1.25
+\frac{\Delta y}{\Delta x}=\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}=\frac{f(2+1)-f(2)}{1}=\frac{2.25-1}{1}=1.25
 \\]
 #### table
 

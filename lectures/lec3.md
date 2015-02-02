@@ -33,5 +33,17 @@ For example, if \\(\Delta x=1\\), then
 \\[
 \lim_{\Delta x \to 0}\frac{}{}=the~slope~of~tagent~line~at~x_0=1
 \\]
-Here we can approximate the values d$\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}$
-using the values of x 
+Here we can **approximate** the values d$\frac{f(\Delta x+x_0)-f(x_0)}{\Delta x}$ ** as accurate as we want**.g the with values of the slope of secant lines by choosing very small \\(\Delta x\)). In other words, eventually, we can approximate **locally**.
+### function example
+#### table
+
+#### result
+
+### definition
+
+
+### calculator error
+
+### importance of graph with \\(y=sin(\pi/x)\\)
+
+

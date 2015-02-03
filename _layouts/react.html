@@ -24,9 +24,13 @@
 <script>
 // http://docs.mathjax.org/en/latest/tex.html
 MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX"],
   tex2jax: {
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
     inlineMath: [['$','$'], ['\\(','\\)']],
-    processEscapes: true
+    processEscapes: false
   }
 });
 // http://kerzol.github.io/markdown-mathjax/editor.html

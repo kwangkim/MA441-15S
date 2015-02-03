@@ -1,4 +1,23 @@
 function updatetab(url, pane) {
+// http://docs.mathjax.org/en/latest/tex.html
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+// http://kerzol.github.io/markdown-mathjax/editor.html
+marked.setOptions({
+  renderer: new marked.Renderer(),
+  gfm: true,
+  tables: true,
+  breaks: false,
+  pedantic: false,
+  sanitize: false, // IMPORTANT, because we do MathJax before markdown,
+                   //            however we do escaping in 'CreatePreview'.
+  smartLists: true,
+  smartypants: false
+});
     // From http://stackoverflow.com/a/651735
     var ext = url.split('.').pop().toLowerCase();
     var ismd = true;
@@ -7,12 +26,12 @@ function updatetab(url, pane) {
     }
     $.get(url, function(data) {
         if (ismd) {
-          MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
-          $('#my-pagination-content').html(marked(data));
           
-        } else {
+          $('#my-pagination-content').html(marked(data));
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
+        } else {
           $('#my-pagination-content').html(data);
+          MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
         }
         console.log('makerbutton');
         makerbutton(); //Update buttons.

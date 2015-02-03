@@ -32,6 +32,7 @@ we say the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) from the right is
 
 Now let's find  \\(\lim_{x\to 0^-}\frac{|x|}{x}=?\\) and \\(\lim_{x\to 0^+} \frac{|x|}{x}=?\\)
 
+$$x^2$$
 #### proposition.
 
 \\[\lim_{x\to x_0} f(x)=L \Leftrightarrow \lim_{x\to x_0^-} f(x)=L~and~\lim_{x\to x_0^-} f(x)=L\\]

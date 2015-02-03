@@ -81,13 +81,14 @@ Let \\(f(x)=(x-4)^3+3\\).
 \lim_{x\to x_0}f(x)=L
 \\]
 and say "the limit of f(x), as x approaches \\(x_0\\), equals L".
-if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to \\(x_0\\).
+if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to \\(x_0\\) but not equal to \\(x_0\\).
 
 Facts
 
-* Do not forget. \\(x\neq x_0\\).
-* \\(f(x_0)\\) and \\(\lim_{x\to x_0}f(x)\\) does not have a relation in general.
-\\(f(x)\\) need not even be defined when \\(x=x_0 \\) to define \\( \lim_{x\to x_0}f(x) \\).
+* Do not forget, \\(x\neq x_0\\).
+
+* \\(f(x_0)\\) and \\( \lim_{x\to x_0}f(x) \\) does not have a relation in general.
+\\(f(x)\\) need not even be defined when \\(x=x_0 \\) to define \\( lim_{x\to x_0} f(x) \\).
 
 ### Example 1
 

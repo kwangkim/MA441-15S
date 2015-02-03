@@ -44,3 +44,10 @@ Find the  \\(\lim_{x\to 0^-} \frac{|x|}{x}\\) and \\(\lim_{x\to 0^+} \frac{|x|}{
 \lim_{x\to x_0} f(x)=L \Leftrightarrow \lim_{x\to x_0^-} f(x)=L~and~\lim_{x\to x_0^-} f(x)=L
 \\]
 
+#### Why do we need a rigorous definition of the limit of a funciton.
+
+Let \\f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
+\\[
+\lim_{x\to 0}
+\\]
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616829/width/678/height/406/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="678px" height="406px" style="border:0px;"> </iframe>

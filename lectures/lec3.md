@@ -31,7 +31,7 @@ For example, if \\(\Delta x=1\\), then
 <th> \\(\Delta x\\)</th>1<th>0.5</th>0.01<th>0.001</th>0.0001<th>-0.0001</th>
 </tr>
 <tr>
-<th> \\(\slope\\)</th>1.25<th>1.125</th>1.0025<th>1.0025</th><th><strong>1.00003</strong></th><th><strong>0.99998</strong></th>
+<td> \\(\slope\\)</td>1.25<td>1.125</td>1.0025<td>1.0025</td><td><strong>1.00003</strong></td><td><strong>0.99998</strong></td>
 </tr>
 </table>
 

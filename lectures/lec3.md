@@ -99,11 +99,11 @@ Facts
 2. \\(f(x_0 )\\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
 \\(f(x)\\) need not even be defined when \\(x=x_0 \\).
 Continuity
-![continuous](https://www.dropbox.com/s/3wma5xeiw1l7gjj/Screenshot%202015-02-03%2000.00.14.png?dl=0)
+![continuous](https://www.dropbox.com/s/3wma5xeiw1l7gjj/Screenshot%202015-02-03%2000.00.14.png)
 Hole and \\(f(a)\\) is defined.
-![Hole-defined](https://www.dropbox.com/s/ujknkxihyd6we5u/Screenshot%202015-02-03%2000.13.40.png?dl=0)
+![Hole-defined](https://www.dropbox.com/s/ujknkxihyd6we5u/Screenshot%202015-02-03%2000.13.40.png)
 Hole and \\(f(a)\\) is undefined.
-![Hole-undefined](https://www.dropbox.com/s/dcflwgj12kg7dty/Screenshot%202015-02-03%2000.15.19.png?dl=0)
+![Hole-undefined](https://www.dropbox.com/s/dcflwgj12kg7dty/Screenshot%202015-02-03%2000.15.19.png)
 ### Example 2
 Let \\(f(x)=\frac{x-1}{x^2-1\\).
 \\[

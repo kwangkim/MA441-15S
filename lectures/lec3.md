@@ -26,9 +26,19 @@ For example, if \\(\Delta x=1\\), then
 \\]
 #### table
 
-slope         | 1.25 |1.125 | 1.0025 |1.00025 |**1.00003** |**0.99998**  |
---------------|------|------|--------|--------|------------|-------------|
-\\(\Delta x\\)|  1   |0.5   |0.01    |0.001   |0.0001      | -0.0001     |
+<table>
+<tr>
+<th> \\(\Delta x\\)</th>1<th>0.5</th>0.01<th>0.001</th>0.0001<th>-0.0001</th>
+</tr>
+<tr>
+<th> \\(\slope\\)</th>1.25<th>1.125</th>1.0025<th>1.0025</th><th><strong>1.00003</strong></th><th><strong>0.99998</strong></th>
+</tr>
+</table>
+
+From the table, we can **guess** (but we cannot confirm yet),
+\\[
+0.99998 \leq lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}\leq 1.00003 \Rightarrow lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=1
+\\]
 
 
 #### graph.

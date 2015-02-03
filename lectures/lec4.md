@@ -21,7 +21,7 @@ Therefore there is no limit at \\(x=0\\). But we can define one-sided limits.
 \\[\lim_{x\to x_0^-} f(x)=L\\]
 
 we say the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) from the left is equal to \\(L\\) if
- we can make the values of \\(f(x)\\) arbitrarily close to \\(L\\) by taking \\(x\\)'s to be sufficiently close to  \\(x_0\\) and \\(x\\) is less than \\(x_0\\).
+ we can make the values of \\(f(x)\\) arbitrarily close to \\(L\\) by taking \\(x\\)'s to be sufficiently close to  \\(x_ 0\\) and \\(x\\) is less than \\(x_0\\).
  
  #### right-handed limit
 
@@ -31,17 +31,17 @@ we say the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) from the right is
  we can make the values of \\(f(x)\\) arbitrarily close to \\(L\\) by taking \\(x\\)'s to be sufficiently close to  \\(x_0 \\) and \\(x\\) is greater than \\(x_0\\).
 
 Now let's find  
-\\( \lim_{x\to 0^-}f(x)=? \\)
+\\( \lim_ {x\to 0^-} f(x)=? \\)
 and 
-\\( \lim_{x\to 0^+} f(x)=? \\)
+\\( \lim_ {x\to 0^+} f(x)=? \\)
 
 #### proposition.
 
-\\( \lim_{x\to x_0} f(x)=L \\)
+\\( \lim_ {x\to x_0} f(x)=L \\)
 is equivalent to
-\\( \lim_{x\to x_0^-} f(x)=L \\)
+\\( \lim_ {x\to x_0^-} f(x)=L \\)
 and
-\\( \lim_{x\to x_0^+} f(x)=L \\)
+\\( \lim_ {x\to x_0^+} f(x)=L \\)
 
 #### Why do we need a rigorous definition of the limit of a funciton.
 
@@ -55,19 +55,19 @@ Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 ![Check](http://tutorial.math.lamar.edu/Classes/CalcI/OneSidedLimits_files/image004.gif)
 
 \\(f(-4)=?\\), 
-\\( \lim_{x\to -4^-} f(x)=? \\),
-\\( \lim_{x\to {-4}^+} f(x)=?\\),
-\\( \lim_{x\to {-4}} f(x)=?\\)
+\\( \lim_ {x\to -4^-} f(x)=? \\),
+\\( \lim_ {x\to {-4}^+} f(x)=?\\),
+\\( \lim_ {x\to {-4}} f(x)=?\\)
 
 \\( f(1)=?\\), 
-\\( \lim_{x\to 1^-} f(x)=? \\), 
-\\( \lim_{x\to 1^+} f(x)=? \\), 
-\\( \lim_{x\to 1} f(x)=? \\)
+\\( \lim_ {x\to 1^-} f(x)=? \\), 
+\\( \lim_ {x\to 1^+} f(x)=? \\), 
+\\( \lim_ {x\to 1} f(x)=? \\)
 
 \\(f(6)=?\\), 
-\\( \lim_{x\to 6^-} f(x)=? \\), 
-\\( \lim_{x\to 6^+} f(x)=? \\), 
-\\( \lim_{x\to 6} f(x)=? \\)
+\\( \lim_ {x\to 6^-} f(x)=? \\), 
+\\( \lim_ {x\to 6^+} f(x)=? \\), 
+\\( \lim_ {x\to 6} f(x)=? \\)
 
 ### infinite limits
 
@@ -78,10 +78,10 @@ Find \\( lim_{x\to 0} \frac{1}{x^2} \\) if it exists.
 ![1/x^2](http://www.dsearls.org/courses/M132BusinessCalc/Samples/InfLimits05.gif)
 
 From the graph,
-\\[ lim_{x\to 0} \frac{1}{x^2}=\infty \\]
+\\[ lim_ {x\to 0} \frac{1}{x^2}=\infty \\]
 
 Similarly,
-\\[ lim_{x\to 0}(- \frac{1}{x^2})=-\infty \\]
+\\[ lim_ {x\to 0}(- \frac{1}{x^2})=-\infty \\]
 
 #### Example.
 
@@ -98,16 +98,16 @@ Therefore, the limit does not exist at \\(x=0\\).
 
 ### Vertical asymptote \\( x=a \\) of the curve \\( y=f(x) \\).
 if at least one of the following statements is true:
-\\[ lim_{x\to a^+} f(x)=\infty \\]
-\\[ lim_{x\to a^+} f(x)=-\infty \\]
-\\[ lim_{x\to a^-} f(x)=\infty \\]
-\\[ lim_{x\to a^-} f(x)=-\infty \\]
+\\[ lim_ {x\to a^+} f(x)=\infty \\]
+\\[ lim_ {x\to a^+} f(x)=-\infty \\]
+\\[ lim_ {x\to a^-} f(x)=\infty \\]
+\\[ lim_ {x\to a^-} f(x)=-\infty \\]
 
 #### Example.
 Find
-\\[ lim_{x\to 3^+} \frac{2x}{x-3}\\]
+\\[ lim_ {x\to 3^+} \frac{2x}{x-3}\\]
 
-\\[ lim_{x\to 3^-} \frac{2x}{x-3}\\]
+\\[ lim_ {x\to 3^-} \frac{2x}{x-3}\\]
 
 vertical asymptote(s) of \\( y=\frac{2x}{x-3} \\).
 

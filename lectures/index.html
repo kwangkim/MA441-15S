@@ -7,3 +7,5 @@ latex: true
 {% for lec in lecture.lecs %}
 {%capture my_inc%}{%include_relative {{lec.url}} %}{%endcapture%}
 {{my_inc|markdownify}}
+{%endfor%}
+{%endfor%}

@@ -56,8 +56,8 @@ Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 
 \\(f(-4)=?\\), 
 \\( \lim_{x\to -4^-} f(x)=? \\),
-\\( \lim_{x\to -4^+} f(x)=?\\),
-\\( \lim_{x\to -4} f(x)=?\\)
+\\( \lim_{x\to {-4}^+} f(x)=?\\),
+\\( \lim_{x\to {-4}} f(x)=?\\)
 
 \\( f(1)=?\\), 
 \\( \lim_{x\to 1^-} f(x)=? \\), 
@@ -68,3 +68,16 @@ Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 \\( \lim_{x\to 6^-} f(x)=? \\), 
 \\( \lim_{x\to 6^+} f(x)=? \\), 
 \\( \lim_{x\to 6} f(x)=? \\)
+
+### infinite limits
+
+#### Example. 
+
+Find \\( lim_{x\to 0} \frac{1}{2} \\) if it exists.
+
+![1/x^2](http://www.dsearls.org/courses/M132BusinessCalc/Samples/InfLimits05.gif)
+
+From the graph,
+\\[ lim_{x\to 0} \frac{1}{2}=\infty \\]
+
+

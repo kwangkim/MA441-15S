@@ -7,11 +7,12 @@ function updatetab(url, pane) {
     }
     $.get(url, function(data) {
         if (ismd) {
+          MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
           $('#my-pagination-content').html(marked(data));
-          MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
+          
         } else {
-          $('#my-pagination-content').html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
+          $('#my-pagination-content').html(data);
         }
         console.log('makerbutton');
         makerbutton(); //Update buttons.

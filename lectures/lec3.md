@@ -66,7 +66,7 @@ Here we can **approximate** the values of \\(\frac{f(x_0+\Delta x)-f(x_0)}{\Delt
 
 ### Ex1
 
-Let \\(f(x)=x^2\\).
+Let \\( f(x)=x^2 \\).
 
 \\[
 \lim_{x\to 2} f(x)=?
@@ -96,14 +96,24 @@ Facts
 
 1. Do not forget, \\(x\neq x_0\\).
 
-2. \\(f(x_0 )\\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
-\\(f(x)\\) need not even be defined when \\(x=x_0 \\).
-Continuity
-![continuous](https://www.dropbox.com/s/3wma5xeiw1l7gjj/Screenshot%202015-02-03%2000.00.14.png)
-Hole and \\(f(a)\\) is defined.
+2. 
+\\[
+f(x_0)= \lim_{x\to x_0}f(x)
+\\]
+
+is not true in general.  \\(f(x_0)\\) eed not even be defined.
+
+#### 3 basic cases
+
+1. Continuity
+ ![continuous](https://www.dropbox.com/s/3wma5xeiw1l7gjj/Screenshot%202015-02-03%2000.00.14.png)
+
+2. Hole and \\(f(x_0)\\) is defined.
 ![Hole-defined](https://www.dropbox.com/s/ujknkxihyd6we5u/Screenshot%202015-02-03%2000.13.40.png)
-Hole and \\(f(a)\\) is undefined.
+
+3. Hole and \\(f(x_)\\) is undefined.
 ![Hole-undefined](https://www.dropbox.com/s/dcflwgj12kg7dty/Screenshot%202015-02-03%2000.15.19.png)
+
 ### Example 2
 Let \\(f(x)=\frac{x^2-4}{x-2\\).
 \\[

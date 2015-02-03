@@ -73,11 +73,42 @@ Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 
 #### Example. 
 
-Find \\( lim_{x\to 0} \frac{1}{2} \\) if it exists.
+Find \\( lim_{x\to 0} \frac{1}{x^2} \\) if it exists.
 
 ![1/x^2](http://www.dsearls.org/courses/M132BusinessCalc/Samples/InfLimits05.gif)
 
 From the graph,
-\\[ lim_{x\to 0} \frac{1}{2}=\infty \\]
+\\[ lim_{x\to 0} \frac{1}{x^2}=\infty \\]
 
+Similarly,
+\\[ lim_{x\to 0}(- \frac{1}{x^2})=-\infty \\]
 
+#### Example.
+
+Find \\( lim_{x\to 0} \frac{1}{x} \\) if it exists.
+
+![1/x](http://www.sagemath.org/calctut/calctut-pix/onesided05.png)
+
+From the graph,
+\\[ lim_{x\to 0^+} \frac{1}{x}=\infty \\]
+
+\\[ lim_{x\to 0^-} \frac{1}{x}=-\infty \\]
+
+Therefore, the limit does not exist at \\(x=0\\).
+
+### Vertical asymptote \\( x=a \\) of the curve \\( y=f(x) \\).
+if at least one of the following statements is true:
+\\[ lim_{x\to a^+} f(x)=\infty \\]
+\\[ lim_{x\to a^+} f(x)=-\infty \\]
+\\[ lim_{x\to a^-} f(x)=\infty \\]
+\\[ lim_{x\to a^-} f(x)=-\infty \\]
+
+#### Example.
+Find
+\\[ lim_{x\to 3^+} \frac{2x}{x-3}\\]
+
+\\[ lim_{x\to 3^-} \frac{2x}{x-3}\\]
+
+vertical asymptote(s) of \\( y=\frac{2x}{x-3} \\).
+
+![2x/(x-3)](http://formula.algebra.com/cgi-bin/plot-formula.mpl?expression=graph%28400%2C300%2C-10%2C10%2C-10%2C10%2C%282x%29%2F%28x-3%29%29&x=0003)

@@ -87,8 +87,8 @@ Facts
 
 * Do not forget, \\(x\neq x_0\\).
 
-* \\(f(x_0)\\) and \\( \lim_{x\to x_0}f(x) \\) does not have a relation in general.
-\\(f(x)\\) need not even be defined when \\(x=x_0 \\) to define \\( lim_{x\to x_0} f(x) \\).
+* \\(f(x_0) \\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
+\\(f(x)\\) need not even be defined when \\(x=x_0 \\).
 
 ### Example 1
 

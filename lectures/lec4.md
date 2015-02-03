@@ -36,7 +36,11 @@ $\lim_{x\to 0^+} \frac{\vert x\vert}{x}=?$
 
 #### proposition.
 
-\\[\lim_{x\to x_0} f(x)=L \Leftrightarrow \lim_{x\to x_0^-} f(x)=L~and~\lim_{x\to x_0^-} f(x)=L\\]
+\\(\lim_{x\to x_0} f(x)=L \\)
+is equivalent to
+\\(\lim_{x\to x_0^-} f(x)=L \\)
+and
+\\(\lim_{x\to x_0^-} f(x)=L\\)
 
 #### Why do we need a rigorous definition of the limit of a funciton.
 

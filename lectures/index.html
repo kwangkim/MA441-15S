@@ -2,5 +2,8 @@
 layout: lecture
 latex: true
 ---
-{%capture my_inc%}{%include_relative lec3.md %}{%endcapture%}
+ {% for lecture in site.data.lectures reverse %}
+{% assign parentloop=forloop %}
+{% for lec in lecture.lecs %}
+{%capture my_inc%}{%include_relative {{lec.url}} %}{%endcapture%}
 {{my_inc|markdownify}}

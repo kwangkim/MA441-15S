@@ -28,8 +28,11 @@ If \\(f\\) is a polynomial or a rational function or radical function and a is *
 
 If \\( f(x)=g(x) \\) when \\( x\neq a\\), then
 
-\\[ \lim_ {x \to a} f(x)
-= \lim_ {x\to a} g(x) \\]
+\\[ \lim_ {x \to a} f(x)\\]
+
+is equal to
+
+\\[ \lim_ {x\to a} g(x) \\]
 if the limits exist.
 
 #### Example 4.

@@ -64,7 +64,7 @@ From the table and the graph, we expect that
 
 Here we can **approximate** the values of \\(\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\\) ** as accurate as we want**.g the with values of the slope of secant lines by choosing very small \\(\Delta x\\). In other words, eventually, we can approximate **locally**.
 
-### function example
+### Ex1
 
 Let \\(f(x)=x^2\\).
 
@@ -78,7 +78,7 @@ Let \\(f(x)=x^2\\).
 From the graph, we can conclude
 
 \\[
-\lim_{x\to 2} f(x)=2
+\lim_{x\to 2} f(x)=4
 \\]
 
 ### definition of the limit of a function \\(y=f(x)\\) at \\(x=x_0\\).
@@ -94,9 +94,9 @@ if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be su
 
 Facts
 
-* Do not forget, \\(x\neq x_0\\).
+1. Do not forget, \\(x\neq x_0\\).
 
-* \\(f(x_0) \\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
+2. \\(f(x_0 )\\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
 \\(f(x)\\) need not even be defined when \\(x=x_0 \\).
 Continuity
 ![continuous](https://www.dropbox.com/s/3wma5xeiw1l7gjj/Screenshot%202015-02-03%2000.00.14.png?dl=0)
@@ -104,8 +104,8 @@ Hole and \\(f(a)\\) is defined.
 ![Hole-defined](https://www.dropbox.com/s/ujknkxihyd6we5u/Screenshot%202015-02-03%2000.13.40.png?dl=0)
 Hole and \\(f(a)\\) is undefined.
 ![Hole-undefined](https://www.dropbox.com/s/dcflwgj12kg7dty/Screenshot%202015-02-03%2000.15.19.png?dl=0)
-### Example 1
-Let \\(f(x)=x^2\\).
+### Example 2
+Let \\(f(x)=\frac{x-1}{x^2-1\\).
 \\[
 \lim_{x\to 1}f(x)=?
 \\]

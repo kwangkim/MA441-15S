@@ -81,7 +81,7 @@ Let \\(f(x)=(x-4)^3+3\\).
 \lim_{x\to x_0}f(x)=L
 \\]
 and say "the limit of f(x), as x approaches \\(x_0\\), equals L".
-if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to a.
+if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to \\(x_0\\).
 
 Facts
 
@@ -97,10 +97,12 @@ Facts
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/612225/width/800/height/647/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="647px" style="border:0px;"> </iframe>
 
 ### importance of graph with \\(y=sin(\frac{\pi}{x})\\)
+
 #### Make the table.
 
 
 ####Graph.
+
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/68050/width/800/height/700/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="700px" style="border:0px;"> </iframe>
 
 

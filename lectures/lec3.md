@@ -95,7 +95,8 @@ Facts
 1. Do not forget, \\(x\neq x_0\\).
 
 2. 
-\\[f(x_0)= \lim_{x\to x_0}f(x)\\]
+
+\\[f(x_0) = \lim_{x\to x_0}f(x)\\]
 
 is not true in general.  \\(f(x_0)\\) eed not even be defined.
 

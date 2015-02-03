@@ -47,3 +47,11 @@ Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 \lim_{x\to 0} f(x)
 \\]
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616829/width/678/height/406/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="678px" height="406px" style="border:0px;"> </iframe>
+
+#### [Check up](http://tutorial.math.lamar.edu/Classes/CalcI/OneSidedLimits.aspx)
+![Check] (http://tutorial.math.lamar.edu/Classes/CalcI/OneSidedLimits_files/image004.gif)
+\\(f(-4)=?\\) \\(\lim_{x\to -4^-} f(X)=?\\) \\(\lim_{x\to -4^+} f(X)=?\\) \\(\lim_{x\to -4} f(X)=?\\)
+
+\\(f(1)=?\\) \\(\lim_{x\to 1^-} f(X)=?\\) \\(\lim_{x\to 1^+} f(X)=?\\) \\(\lim_{x\to 1} f(X)=?\\)
+
+\\(f(6)=?\\) \\(\lim_{x\to 6^-} f(X)=?\\) \\(\lim_{x\to 6^+} f(X)=?\\) \\(\lim_{x\to 6} f(X)=?\\)

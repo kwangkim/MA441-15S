@@ -10,9 +10,7 @@
 
 Let \\( f(x)=\frac{|x|}{x} \\). Find
 
-\\[
-\lim_{x\to 0} f(x)
-\\]
+\\[\lim_{x\to 0} f(x)\\]
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616813/width/646/height/556/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="646px" height="556px" style="border:0px;"> </iframe>
 
@@ -32,9 +30,7 @@ we say the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) from the left is 
 we say the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) from the right is equal to \\(L\\) if
  we can make the values of \\(f(x)\\) arbitrarily close to \\(L\\) by taking \\(x\\)'s to be sufficiently close to  \\(x_0 \\) and \\(x\\) is greater than \\(x_0\\).
 
-\\[\lim_{x\to 0^-} \frac{|x|}{x}=? \\]
-and
-\\[\lim_{x\to 0^+} \frac{|x|}{x}=?\\]
+Now let's find  \\(\lim_{x\to 0^-}\frac{|x|}{x}=?\\) and \\(\lim_{x\to 0^+} \frac{|x|}{x}=?\\)
 
 #### proposition.
 

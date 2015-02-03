@@ -24,12 +24,10 @@ The slope of secant line of \\( (x_0,f(x_0))\\) and \\((x_0+\Delta x,f(x_0+\Delt
 For example, if \\(\Delta x=1\\), then
 \\[
 \frac{\Delta y}{\Delta x}=\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}=\frac{f(2+1)-f(2)}{1}=\frac{2.25-1}{1}=1.25
-\Rightarrow
 \\]
 
 #### table
-<!--
-<table class="table-bordered text-center">
+<table class="table-bordered text-center large">
 <tr>
 <th> \\(\Delta x\\)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
 </tr>
@@ -37,14 +35,14 @@ For example, if \\(\Delta x=1\\), then
 <td> slope of secant line</td><td>1.25</td><td>1.125</td><td>1.0025</td><td>1.0025</td><td><strong>1.00003</strong></td><td><strong>0.99998</strong></td>
 </tr>
 </table>
--->
+
 
 From the table, we can **guess** (but we cannot confirm yet),
 
 
 
 \\[
-0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x} \leq 1.00003 
+0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x} \leq 1.00003 \Rightarrow \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}
 \\]
 
 

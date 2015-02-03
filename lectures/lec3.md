@@ -67,7 +67,7 @@ Let \\(f(x)=(x-4)^3+3\\)
 
 > Suppose f(x) defined when x is near the number a except x=a. (This means that f is defined on some open interval that contains a, except possibly at a itself.) Then we write
 \\[
-\lim_{x\to x_0}f(x)=L
+\lim_{x\to a}f(x)=L
 \\]
 and say "the limit of f(x), as x approaches a, equals L".
 if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to a.

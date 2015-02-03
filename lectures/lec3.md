@@ -27,7 +27,8 @@ For example, if \\(\Delta x=1\\), then
 \\]
 
 #### table
-<table class="table-bordered text-center large">
+
+<table class="table-bordered text-center large md-col-2">
 <tr>
 <th> \\(\Delta x\\)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
 </tr>
@@ -36,6 +37,12 @@ For example, if \\(\Delta x=1\\), then
 </tr>
 </table>
 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+    
 
 From the table, we can **guess** (but we cannot confirm yet),
 

@@ -18,7 +18,7 @@
 
 If \\(f\\) is a polynomial or a rational function or radical function and a is **in the domain** of \\(f\\),
 
-\\[ \lim_{x\to a}=f(a) \\]
+\\[ \lim_ {x\to a} f(x)=f(a) \\]
 
 ### Example 3.
 

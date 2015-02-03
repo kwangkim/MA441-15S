@@ -130,15 +130,13 @@ Let \\(f(x)=\frac{x^2-4}{x-2\\).
 #### Make the table.
 
 Let \\(x=\frac{1}{n}\\) where \\(n\\) is a natural number.
+
 Then 
 \\[f(\frac{1}{n})=\sin(n\pi)=0 \\]
-and
+
 We may guess that
-\\[
+\\[\lim_{x\to 0} \sin(\frac{\pi}{x})=0\\]
 
-\lim_{x\to 0} \sin(\frac{\pi}{x})=0
-
-\\]
 But it is wrong. Actually, there is no limit at \\(x=0)\\.
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616805/width/678/height/613/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="678px" height="613px" style="border:0px;"> </iframe>

@@ -26,7 +26,7 @@ If \\(f\\) is a polynomial or a rational function or radical function and a is *
 
 ### Fact
 
-If \\( f(x)=g(x) )\\ when \\( x\neq a\\), then
+If \\( f(x)=g(x) \\) when \\( x\neq a\\), then
 
 \\[ \lim_ {x\to a} f(x)=\lim_ {x\to a} f(x) \\]
 if the limits exist.

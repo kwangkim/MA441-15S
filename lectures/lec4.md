@@ -6,13 +6,13 @@
  * inifite limits
  * vertical asymtote(s)
 
-#### Example 6! Let \\( f(x)=\frac{|x|}{x} \\). Find
+#### Example 6! 
+
+Let \\( f(x)=\frac{|x|}{x} \\). Find
 
 \\[
 \lim_{x\to 0} f(x)
 \\]
 
 
-$$
-\Latex
-$$
+

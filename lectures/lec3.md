@@ -106,13 +106,13 @@ is not true in general.  \\(f(x_0)\\) eed not even be defined.
 #### 3 basic cases
 
 1. Continuity
- ![continuous](https://www.dropbox.com/s/3wma5xeiw1l7gjj/Screenshot%202015-02-03%2000.00.14.png)
+ ![continuous](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-02-03%2000.00.14.png?_subject_uid=127892&w=AAAb602wTAL7zwdpmjS58Xmw1TvuiOHwanXJzU8Sfa_8Eg)
 
 2. Hole and \\(f(x_0)\\) is defined.
-![Hole-defined](https://www.dropbox.com/s/ujknkxihyd6we5u/Screenshot%202015-02-03%2000.13.40.png)
+![Hole-defined](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-02-03%2000.13.40.png?_subject_uid=127892&w=AADPAMDWz-rlMR3m8ybV4S2dNexT_PNvaYrKGxwJzaBo4A)
 
 3. Hole and \\(f(x_)\\) is undefined.
-![Hole-undefined](https://www.dropbox.com/s/dcflwgj12kg7dty/Screenshot%202015-02-03%2000.15.19.png)
+![Hole-undefined](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-02-03%2000.15.19.png?_subject_uid=127892&w=AACBKrFY6uQqWEVkteBJRv6xNeszEl_eZspOzqMpKxiDaQ)
 
 ### Example 2
 Let \\(f(x)=\frac{x^2-4}{x-2\\).

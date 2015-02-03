@@ -76,7 +76,7 @@ Facts
 
 * Do not forget. \\(x\neq x_0\\).
 * \\(f(x)\\) need not even be defined when \\(x=x_0\\)
-* 
+
 ### Example 1
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/53830/width/800/height/486/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="486px" style="border:0px;"> </iframe>

@@ -96,7 +96,7 @@ Facts
 
 2.  \\(f(x_0) = \lim_{x\to x_0}f(x)\\)
 
-is not true in general.  \\(f(x_0)\\) eed not even be defined.
+is not true in general.  \\(f(x_0)\\) needs not even to be defined.
 
 #### 3 basic cases
 

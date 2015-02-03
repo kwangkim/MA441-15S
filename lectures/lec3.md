@@ -24,6 +24,7 @@ For example, if \\(\Delta x=1\\), then
 \\[
 \frac{\Delta y}{\Delta x}=\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}=\frac{f(2+1)-f(2)}{1}=\frac{2.25-1}{1}=1.25
 \\]
+
 #### table
 
 <table>

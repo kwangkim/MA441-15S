@@ -122,10 +122,9 @@ Let \\(f(x)=\frac{x^2-4}{x-2}\\).
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616797/width/568/height/625/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="568px" height="625px" style="border:0px;"> </iframe>
 
-### Example 2
 
 
-### importance of graph with \\(y=\sin(\frac{\pi}{x})\\)
+### Example 3.  importance of graph with \\(y=\sin(\frac{\pi}{x})\\)
 
 #### Make the table.
 

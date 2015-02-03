@@ -28,7 +28,7 @@ For example, if \\(\Delta x=1\\), then
 
 #### table
 
-<table>
+<table class="table-bordered">
 <tr>
 <th> \\(\Delta x\\)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
 </tr>

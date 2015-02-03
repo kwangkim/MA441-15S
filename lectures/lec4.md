@@ -1,4 +1,4 @@
-## LEC 4 The limit of a function I
+## LEC 4 The limit of a function II
 
 ### Goal 
 
@@ -49,8 +49,17 @@ Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 #### [Check up](http://tutorial.math.lamar.edu/Classes/CalcI/OneSidedLimits.aspx)
 ![Check](http://tutorial.math.lamar.edu/Classes/CalcI/OneSidedLimits_files/image004.gif)
 
-\\(f(-4)=?\\), \\( \lim_{x\to -4^-} f(x)=? \\), \\(\lim_{x\to -4^+} f(x)=?\\), \\(\lim_{x\to -4} f(x)=?\\)
+\\(f(-4)=?\\), 
+\\( \lim_{x\to -4^-} f(x)=? \\),
+\\(\lim_{x\to -4^+} f(x)=?\\),
+\\(\lim_{x\to -4} f(x)=?\\)
 
-\\(f(1)=?\\), \\(\lim_{x\to 1^-} f(x)=?\\), \\(\lim_{x\to 1^+} f(x)=?\\), \\(\lim_{x\to 1} f(x)=?\\)
+\\(f(1)=?\\), 
+\\(\lim_{x\to 1^-} f(x)=?\\), 
+\\(\lim_{x\to 1^+} f(x)=?\\), 
+\\(\lim_{x\to 1} f(x)=?\\)
 
-\\(f(6)=?\\), \\(\lim_{x\to 6^-} f(x)=?\\), \\(\lim_{x\to 6^+} f(x)=?\\), \\(\lim_{x\to 6} f(x)=?\\)
+\\(f(6)=?\\), 
+\\(\lim_{x\to 6^-} f(x)=?\\), 
+\\(\lim_{x\to 6^+} f(x)=?\\), 
+\\(\lim_{x\to 6} f(x)=?\\)

@@ -66,17 +66,18 @@ Let \\(f(x)=(x-4)^3+3\\)
 
 ### definition of the limit of a function \\(y=f(x)\\) at \\(x=x_0\\).
 
-> Suppose f(x) defined when x is near the number a except x=a. (This means that f is defined on some open interval that contains a, except possibly at a itself.) Then we write
+> Suppose f(x) defined when x is near the number a except \\(x=x_0\\). (This means that f is defined on some open interval that contains \\(x_0\\), except possibly at \\(x_0\\) itself.) Then we write
 \\[
-\lim_{x\to a}f(x)=L
+\lim_{x\to x_0}f(x)=L
 \\]
-and say "the limit of f(x), as x approaches a, equals L".
+and say "the limit of f(x), as x approaches \\(x_0\\), equals L".
 if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to a but not equal to a.
 
 Facts
 
 * Do not forget. \\(x\neq x_0\\).
-* \\(f(x)\\) need not even be defined when \\(x=x_0\\)
+* \\(f(x_0)\\) and \\(\lim_{x\to x_0}f(x)\\) does not have a relation in general.
+\\(f(x)\\) need not even be defined when \\(x=x_0\\) to define \\(\lim_{x\to x_0}f(x)\\).
 
 ### Example 1
 

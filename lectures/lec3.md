@@ -88,7 +88,7 @@ Facts
 * Do not forget, \\(x\neq x_0\\).
 
 * {%raw%}\\(f(x_0) \\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
-\\(f(x)\\) need not even be defined when \\(x=x_0 \\).{%endraq%}.
+\\(f(x)\\) need not even be defined when \\(x=x_0 \\).{%endraw%}.
 
 ### Example 1
 

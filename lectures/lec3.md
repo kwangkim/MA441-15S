@@ -1,4 +1,4 @@
-##LEC 3 The limit of a function I
+## LEC 3 The limit of a function I
 
 ### Goal 
 

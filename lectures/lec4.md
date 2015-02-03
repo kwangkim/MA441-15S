@@ -20,29 +20,23 @@ Therefore there is no limit at \\(x=0\\). But we can define one-sided limits.
 
 #### Left-handed limit
 
-\[
-\lim_{x\to x_0^-} f(x)=L
-\]
+\\[\lim_{x\to x_0^-} f(x)=L\\]
 
-we say the limit of \\f(x)\\) as \\(x\\) approaches \\(x_0\\) from the left is equal to \\(L\\) if
+we say the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) from the left is equal to \\(L\\) if
  we can make the values of \\(f(x)\\) arbitrarily close to \\(L\\) by taking \\(x\\)'s to be sufficiently close to  \\(x_0\\) and \\(x\\) is less than \\(x_0\\).
  
  #### right-handed limit
 
-\[
-\lim_{x\to x_0^+} f(x)=L
-\]
+\\[\lim_{x\to x_0^+} f(x)=L\\]
 
-we say the limit of \\f(x)\\) as \\(x\\) approaches \\(x_0\\) from the right is equal to \\(L\\) if
+we say the limit of \\(f(x)\\) as \\(x\\) approaches \\(x_0\\) from the right is equal to \\(L\\) if
  we can make the values of \\(f(x)\\) arbitrarily close to \\(L\\) by taking \\(x\\)'s to be sufficiently close to  \\(x_0 \\) and \\(x\\) is greater than \\(x_0\\).
 
-Find the  \\(\lim_{x\to 0^-} \frac{|x|}{x}\\) and \\(\lim_{x\to 0^+} \frac{|x|}{x}\\).
+Find the  \\(\lim_{x\to 0^-} \frac{|x|}{x} \\) and \\(\lim_{x\to 0^+} \frac{|x|}{x}\\).
 
 #### proposition.
 
-\\[
-\lim_{x\to x_0} f(x)=L \Leftrightarrow \lim_{x\to x_0^-} f(x)=L~and~\lim_{x\to x_0^-} f(x)=L
-\\]
+\\[\lim_{x\to x_0} f(x)=L \Leftrightarrow \lim_{x\to x_0^-} f(x)=L~and~\lim_{x\to x_0^-} f(x)=L\\]
 
 #### Why do we need a rigorous definition of the limit of a funciton.
 

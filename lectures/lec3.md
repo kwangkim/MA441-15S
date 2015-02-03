@@ -28,7 +28,7 @@ For example, if \\(\Delta x=1\\), then
 
 #### table
 
-<table class="table-bordered">
+<table class="table-bordered text-center">
 <tr>
 <th> \\(\Delta x\\)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
 </tr>
@@ -40,9 +40,8 @@ For example, if \\(\Delta x=1\\), then
 From the table, we can **guess** (but we cannot confirm yet),
 
 \\[
-0.99998 \leq lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}\leq 1.00003 \Rightarrow lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=1
+0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}\leq 1.00003 \Rightarrow lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=1
 \\]
-
 
 #### graph.
 

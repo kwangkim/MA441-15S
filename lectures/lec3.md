@@ -111,11 +111,11 @@ is not true in general.  \\(f(x_0)\\) eed not even be defined.
 2. Hole and \\(f(x_0)\\) is defined.
 ![Hole-defined](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-02-03%2000.13.40.png?_subject_uid=127892&w=AADPAMDWz-rlMR3m8ybV4S2dNexT_PNvaYrKGxwJzaBo4A)
 
-3. Hole and \\(f(x_)\\) is undefined.
+3. Hole and \\(f(x_0)\\) is undefined.
 ![Hole-undefined](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-02-03%2000.15.19.png?_subject_uid=127892&w=AACBKrFY6uQqWEVkteBJRv6xNeszEl_eZspOzqMpKxiDaQ)
 
 ### Example 2
-Let \\(f(x)=\frac{x^2-4}{x-2\\).
+Let \\(f(x)=\frac{x^2-4}{x-2}\\).
 \\[
 \lim_{x\to 2}f(x)=?
 \\]
@@ -137,7 +137,7 @@ Then
 We may guess that
 \\[\lim_{x\to 0} \sin(\frac{\pi}{x})=0\\]
 
-But it is wrong. Actually, there is no limit at \\(x=0)\\.
+But it is wrong. Actually, there is no limit at \\(x=0\\).
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616805/width/678/height/613/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="678px" height="613px" style="border:0px;"> </iframe>
 

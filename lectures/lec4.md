@@ -47,8 +47,8 @@ Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 #### [Check up](http://tutorial.math.lamar.edu/Classes/CalcI/OneSidedLimits.aspx)
 ![Check](http://tutorial.math.lamar.edu/Classes/CalcI/OneSidedLimits_files/image004.gif)
 
-\\(f(-4)=?\\), \\( \lim_{x\to -4^-} f(X)=? \\), \\(\lim_{x\to -4^+} f(X)=?\\), \\(\lim_{x\to -4} f(X)=?\\)
+\\(f(-4)=?\\), \\( \lim_{x\to -4^-} f(x)=? \\), \\(\lim_{x\to -4^+} f(x)=?\\), \\(\lim_{x\to -4} f(x)=?\\)
 
-\\(f(1)=?\\), \\(\lim_{x\to 1^-} f(X)=?\\), \\(\lim_{x\to 1^+} f(X)=?\\), \\(\lim_{x\to 1} f(X)=?\\)
+\\(f(1)=?\\), \\(\lim_{x\to 1^-} f(x)=?\\), \\(\lim_{x\to 1^+} f(x)=?\\), \\(\lim_{x\to 1} f(x)=?\\)
 
-\\(f(6)=?\\), \\(\lim_{x\to 6^-} f(X)=?\\), \\(\lim_{x\to 6^+} f(X)=?\\), \\(\lim_{x\to 6} f(X)=?\\)
+\\(f(6)=?\\), \\(\lim_{x\to 6^-} f(x)=?\\), \\(\lim_{x\to 6^+} f(x)=?\\), \\(\lim_{x\to 6} f(x)=?\\)

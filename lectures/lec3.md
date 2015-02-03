@@ -27,16 +27,16 @@ For example, if \\(\Delta x=1\\), then
 \\]
 
 #### table
-{% raw %}
+
 <table class="table-bordered text-center large md-col-2">
 <tr>
-<th> {%raw%}\\( \Delta x \\){%rawend%}</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
+<th> \\( \Delta x \\)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
 </tr>
 <tr>
 <td> slope of secant line</td><td>1.25</td><td>1.125</td><td>1.0025</td><td>1.0025</td><td><strong>1.00003</strong></td><td><strong>0.99998</strong></td>
 </tr>
 </table>
-{% endraw %}
+
 
 
 
@@ -87,8 +87,8 @@ Facts
 
 * Do not forget, \\(x\neq x_0\\).
 
-* {%raw%}\\(f(x_0) \\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
-\\(f(x)\\) need not even be defined when \\(x=x_0 \\).{%endraw%}.
+* \\(f(x_0) \\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
+\\(f(x)\\) need not even be defined when \\(x=x_0 \\).
 
 ### Example 1
 

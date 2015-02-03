@@ -66,15 +66,20 @@ Here we can **approximate** the values of \\(\frac{f(x_0+\Delta x)-f(x_0)}{\Delt
 
 ### function example
 
-Let \\(f(x)=(x-4)^3+3\\).
+Let \\(f(x)=x^2\\).
 
 \\[
-\lim_{x\to 4} f(x)=?
+\lim_{x\to 2} f(x)=?
 \\]
 
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/612203/width/800/height/631/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="631px" style="border:0px;"> </iframe>
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616753/width/800/height/641/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="641px" style="border:0px;"> </iframe>
 
 #### result
+From the graph, we can conclude
+
+\\[
+\lim_{x\to 2} f(x)=2
+\\]
 
 ### definition of the limit of a function \\(y=f(x)\\) at \\(x=x_0\\).
 
@@ -93,9 +98,17 @@ Facts
 
 * \\(f(x_0) \\) and \\( lim_{x\to x_0}f(x) \\) does not have a relation in general.
 \\(f(x)\\) need not even be defined when \\(x=x_0 \\).
-
+Continuity
+![continuous](https://www.dropbox.com/s/3wma5xeiw1l7gjj/Screenshot%202015-02-03%2000.00.14.png?dl=0)
+Hole and \\(f(a)\\) is defined.
+![Hole-defined](https://www.dropbox.com/s/ujknkxihyd6we5u/Screenshot%202015-02-03%2000.13.40.png?dl=0)
+Hole and \\(f(a)\\) is undefined.
+![Hole-undefined](https://www.dropbox.com/s/dcflwgj12kg7dty/Screenshot%202015-02-03%2000.15.19.png?dl=0)
 ### Example 1
-
+Let \\(f(x)=x^2\\).
+\\[
+\lim_{x\to 1}f(x)=?
+\\]
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/53830/width/800/height/486/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="486px" style="border:0px;"> </iframe>
 
 ### Example 2

@@ -105,22 +105,31 @@ Hole and \\(f(a)\\) is defined.
 Hole and \\(f(a)\\) is undefined.
 ![Hole-undefined](https://www.dropbox.com/s/dcflwgj12kg7dty/Screenshot%202015-02-03%2000.15.19.png)
 ### Example 2
-Let \\(f(x)=\frac{x-1}{x^2-1\\).
+Let \\(f(x)=\frac{x^2-4}{x-2\\).
 \\[
-\lim_{x\to 1}f(x)=?
+\lim_{x\to 2}f(x)=?
 \\]
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/53830/width/800/height/486/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="486px" style="border:0px;"> </iframe>
+
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616797/width/568/height/625/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="568px" height="625px" style="border:0px;"> </iframe>
 
 ### Example 2
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/612225/width/800/height/647/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="647px" style="border:0px;"> </iframe>
 
-### importance of graph with \\(y=sin(\frac{\pi}{x})\\)
+
+### importance of graph with \\(y=\sin(\frac{\pi}{x})\\)
 
 #### Make the table.
 
+Let \\(x=\frac{1}{n}\\) where \\(n\\) is a natural number.
+Then 
+\\[f(\frac{1}{n})=\sin(n\pi)=0 \\]
+and
+We may guess that
+\\[
 
-#### Graph.
+\lim_{x\to 0} \sin(\frac{\pi}{x})=0
 
-<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/68050/width/800/height/700/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="700px" style="border:0px;"> </iframe>
+\\]
+But it is wrong. Actually, there is no limit at \\(x=0)\\.
 
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616805/width/678/height/613/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="678px" height="613px" style="border:0px;"> </iframe>
 

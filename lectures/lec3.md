@@ -30,7 +30,7 @@ For example, if \\(\Delta x=1\\), then
 {% raw %}
 <table class="table-bordered text-center large md-col-2">
 <tr>
-<th> \\( \Delta x \\)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
+<th> {%raw%}\\( \Delta x \\){%rawend%}</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
 </tr>
 <tr>
 <td> slope of secant line</td><td>1.25</td><td>1.125</td><td>1.0025</td><td>1.0025</td><td><strong>1.00003</strong></td><td><strong>0.99998</strong></td>
@@ -102,7 +102,7 @@ Facts
 #### Make the table.
 
 
-####Graph.
+#### Graph.
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/68050/width/800/height/700/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="700px" style="border:0px;"> </iframe>
 

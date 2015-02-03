@@ -28,7 +28,7 @@ For example, if \\(\Delta x=1\\), then
 
 <table>
 <tr>
-<th> \\(\Delta x\\)</th>1<th>0.5</th>0.01<th>0.001</th>0.0001<th>-0.0001</th>
+<th> \\(\Delta x\\)</th><th>1</th><th>0.5</th><th>0.01</th><th>0.001</th><th>0.0001</th><th>-0.0001</th>
 </tr>
 <tr>
 <td> \\(\slope\\)</td><td>1.25</td><td>1.125</td><td>1.0025</td><td>1.0025</td><td><strong>1.00003</strong></td><td><strong>0.99998</strong></td>

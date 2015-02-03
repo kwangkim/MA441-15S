@@ -42,7 +42,7 @@ and
 
 #### Why do we need a rigorous definition of the limit of a funciton.
 
-Let \\f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
+Let \\(f(x)=x^2\cdot cos(\frac{\pi}{x})\\). Find
 \\[
 \lim_{x\to 0}
 \\]

@@ -94,9 +94,7 @@ Facts
 
 1. Do not forget, \\(x\neq x_0\\).
 
-2. 
-
-\\[f(x_0) = \lim_{x\to x_0}f(x)\\]
+2.  \\(f(x_0) = \lim_{x\to x_0}f(x)\\)
 
 is not true in general.  \\(f(x_0)\\) eed not even be defined.
 
@@ -112,6 +110,7 @@ is not true in general.  \\(f(x_0)\\) eed not even be defined.
 ![Hole-undefined](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-02-03%2000.15.19.png?_subject_uid=127892&w=AACBKrFY6uQqWEVkteBJRv6xNeszEl_eZspOzqMpKxiDaQ)
 
 ### Example 2
+
 Let \\(f(x)=\frac{x^2-4}{x-2}\\).
 
 \\[\lim_{x\to 2}f(x)=?\\]

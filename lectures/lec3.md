@@ -42,7 +42,7 @@ From the table, we can **guess** (but we cannot confirm yet),
 
 
 \\[
-0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x} \leq 1.00003 \Rightarrow \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}
+0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x} \leq 1.00003 
 \\]
 
 

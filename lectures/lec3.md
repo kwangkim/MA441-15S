@@ -64,7 +64,7 @@ From the table and the graph, we expect that
 
 Here we can **approximate** the values of \\(\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\\) ** as accurate as we want**.g the with values of the slope of secant lines by choosing very small \\(\Delta x\\). In other words, eventually, we can approximate **locally**.
 
-### Ex1
+### Example 1
 
 Let \\( f(x)=x^2 \\).
 
@@ -85,9 +85,7 @@ From the graph, we can conclude
 
 > Suppose f(x) defined when x is near the number a except \\(x=x_0\\). (This means that f is defined on some open interval that contains \\(x_0\\), except possibly at \\(x_0\\) itself.) Then we write
 
-\\[
-\lim_{x\to x_0}f(x)=L
-\\]
+\\[\lim_{x\to x_0}f(x)=L\\]
 
 > and say "the limit of f(x), as x approaches \\(x_0\\), equals L".
 if we make the value**s** of f(x) arbitrarily close L by taking **x's** to be sufficiently close to \\(x_0\\) but not equal to \\(x_0\\).
@@ -97,9 +95,7 @@ Facts
 1. Do not forget, \\(x\neq x_0\\).
 
 2. 
-\\[
-f(x_0)= \lim_{x\to x_0}f(x)
-\\]
+\\[f(x_0)= \lim_{x\to x_0}f(x)\\]
 
 is not true in general.  \\(f(x_0)\\) eed not even be defined.
 
@@ -116,9 +112,8 @@ is not true in general.  \\(f(x_0)\\) eed not even be defined.
 
 ### Example 2
 Let \\(f(x)=\frac{x^2-4}{x-2}\\).
-\\[
-\lim_{x\to 2}f(x)=?
-\\]
+
+\\[\lim_{x\to 2}f(x)=?\\]
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/616797/width/568/height/625/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="568px" height="625px" style="border:0px;"> </iframe>
 
@@ -128,9 +123,8 @@ Let \\(f(x)=\frac{x^2-4}{x-2}\\).
 
 #### Make the table.
 
-Let \\(x=\frac{1}{n}\\) where \\(n\\) is a natural number.
+Let \\(x=\frac{1}{n}\\) where \\(n\\) is a natural number. Then 
 
-Then 
 \\[f(\frac{1}{n})=\sin(n\pi)=0 \\]
 
 We may guess that

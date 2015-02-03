@@ -1,4 +1,5 @@
 ---
 layout: lecture
 ---
-{%include_relative lec2.md  | markdownify %}
+{%capture my_inc%}{%include_relative lec2.md %}{%endcapture%}
+{{my_inc|markdownify}}

@@ -44,6 +44,7 @@ For example, if \\(\Delta x=1\\), then
 | col 3 is | right-aligned |    $1 |
     
 
+
 From the table, we can **guess** (but we cannot confirm yet),
 
 

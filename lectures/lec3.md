@@ -36,6 +36,7 @@ For example, if \\(\Delta x=1\\), then
 </table>
 
 From the table, we can **guess** (but we cannot confirm yet),
+
 \\[
 0.99998 \leq lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}\leq 1.00003 \Rightarrow lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=1
 \\]
@@ -55,7 +56,8 @@ Here we can **approximate** the values of \\(\frac{f(\Delta x+x_0)-f(x_0)}{\Delt
 
 ### function example
 
-Let \\(f(x)=(x-4)^3+3\\)
+Let \\(f(x)=(x-4)^3+3\\).
+
 \\[
 \lim_{x\to 4} f(x)=?
 \\]

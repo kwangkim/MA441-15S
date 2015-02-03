@@ -40,13 +40,16 @@ For example, if \\(\Delta x=1\\), then
 
 From the table, we can **guess** (but we cannot confirm yet),
 
-\\(
-0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}\leq 1.00003 \Rightarrow \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=1
-\\)
-
 \\[
 \frac{\Delta y}{\Delta x}=\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}=\frac{f(2+1)-f(2)}{1}=\frac{2.25-1}{1}=1.25
 \\]
+
+\\(
+0.99998 \leq \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x} \leq 1.00003 \Rightarrow \lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=1
+\\)
+
+
+
 #### graph.
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/611503/width/800/height/547/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="547px" style="border:0px;"> </iframe>

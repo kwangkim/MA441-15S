@@ -8,9 +8,9 @@ Latexdown={
   mjRunning: false,  // true when MathJax is processing
   oldText: null,     // used to check if an update is needed
   
-  Init: function (preview) {
-    this.preview = document.getElementById(preview);
-  
+  Init: function (preview-id,event-tab-id) {
+    this.preview = document.getElementById(preview-id);
+    Latexdown.UpdateTab($('#'+event-tab-id).find('.active a').attr("data-url"), $('#'+event-tab-id).find( '.active a'));
   },
   Update: function () {
     if (this.timeout) {clearTimeout(this.timeout)}

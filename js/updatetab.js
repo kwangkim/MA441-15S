@@ -10,6 +10,7 @@ function updatetab(url, pane) {
         if (ismd) {
           var delimiters=[["\\\[","\\\]"],["\\\(","\\\)"]]
           var runderscore = function(match){
+              console.log("match:"+match);
               return '<span class="math">'+match+'</span>';
           }
           for( i=0; i< delimiters.length; i++){

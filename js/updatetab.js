@@ -33,7 +33,7 @@ Latexdown={
     else{
         return true;
     }
-  }
+  },
   UpdateTab: function(url , pane){
     /*$.get(url, function(data) {
       /*

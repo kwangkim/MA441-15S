@@ -56,7 +56,7 @@ Latexdown={
     this.previewid=previewid;
     this.eventtabid=eventtabid;
     this.preview=document.getElementById(this.previewid);
-    console.log("preview"+this.preview);
+    console.log("id1"+this.previewid);
     initial=$('#'+this.preivewid+' a .active');
     this.UpdateTab(initial.attr("data-url"),initial);
   } 

@@ -7,7 +7,7 @@ function updatetab(url, pane) {
       ismd = false;
     }
     content=$('#my-pagination-content');
-    runmarked= function(){
+    runmarked= function(content){
             content.innerHTML=marked(content.innerHTML);
     }
     $.get(url, function(data) {

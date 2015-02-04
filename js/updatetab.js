@@ -9,7 +9,8 @@ function updatetab(url, pane) {
     $.get(url, function(data) {
         if (ismd) {
           
-          data= data.replace(/\_/gi,'\\\_');// Handle underscore by \_
+          data= data.replace(/(?<=\\[)(\_)(?=\\])/gi,'\\\_'); // Handle underscore by \_
+          // only change if _ is within math symbols http://stackoverflow.com/a/1454936
           $('#my-pagination-content').html(marked(data));
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
         } else {

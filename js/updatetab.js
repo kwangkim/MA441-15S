@@ -7,8 +7,8 @@ function updatetab(url, pane) {
       ismd = false;
     }
     content=$('#my-pagination-content');
-    runmarked= function(content){
-            content.innerHTML=marked(content.innerHTML);
+    runmarked= function(t){
+            t.innerHTML=marked(content.innerHTML);
     };
     $.get(url, function(data) {
         if (ismd) {
@@ -32,7 +32,7 @@ function updatetab(url, pane) {
           */
           content.innerHTML=data;
           console.log(content.innerHTML);
-          MathJax.Hub.Queue(["Typeset", '#my-pagination-content'  ], ["runmarked",content],,["console.log",content.innerHTML]);
+          MathJax.Hub.Queue(["Typeset", '#my-pagination-content'  ], ["runmarked",content],["console.log",content.innerHTML]);
         } else {
           content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);

@@ -35,7 +35,7 @@ Latexdown={
     }
   }
   UpdateTab: function (url , pane){
-    $.get(url, function(data) {
+    /*$.get(url, function(data) {
       /*
         Latexdown.timeout = null;
         if (this.mjRunning) return;
@@ -52,7 +52,7 @@ Latexdown={
         */
         makerbutton();
         pane.tab('show');
-    });
+    });*/
   } 
 };
 Latexdown.callback=athJax.Callback(["UpdateTab",Latexdown]);

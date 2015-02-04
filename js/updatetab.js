@@ -13,8 +13,9 @@ var Latexdown={
     this.previewid=pid;
     this.eventtabid=eid;
     this.preview=document.getElementById(this.previewid);
-    var initial=$('#'+this.preivewid+' a .active');
-    console.log(initial);
+    var id='#'+this.preivewid+' a .active';
+    var initial=$(id);
+    console.log("initial:"+initial);
     this.UpdateTab(initial.attr("data-url"),initial);
   }, 
   Update: function () {

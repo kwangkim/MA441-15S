@@ -8,7 +8,7 @@ function updatetab(url, pane) {
     }
     $.get(url, function(data) {
         if (ismd) {
-          var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
+          var delimiters=[["\\\[","\\\]"],["\\\(","\\\)"]]
           var runderscore = function(match){
               return '<span class="math">'+match+'</span>';
           }

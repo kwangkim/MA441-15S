@@ -21,14 +21,15 @@ function updatetab(url, pane) {
             data= data.replace(regex,runderscore); // Handle underscore by \_ 
           }
           */
-          // only change if _ is within math symbols http://stackoverflow.com/a/1454936
+          /*only change if _ is within math symbols http://stackoverflow.com/a/1454936
           console.log(data);
-          /*MathJax.Hub.Register.MessageHook("End Process", function (message) {
+          MathJax.Hub.Register.MessageHook("End Process", function (message) {
             content.html(data);
           });
           */
           content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
+          console.log(content.html);
           content.html(marked(content.html));
         } else {
           content.html(data);

@@ -9,7 +9,7 @@ function updatetab(url, pane) {
     content=$('#my-pagination-content');
     runmarked= function(content){
             content.innerHTML=marked(content.innerHTML);
-    }
+    };
     $.get(url, function(data) {
         if (ismd) {
           /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]

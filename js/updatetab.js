@@ -8,8 +8,15 @@ function updatetab(url, pane) {
     }
     $.get(url, function(data) {
         if (ismd) {
-          
-          data= data.replace(/(?<=\\[)(.*?)(?=\\])/gi,'\\\_'); // Handle underscore by \_
+          var delimiters=[["\\\[","\\\]"],["\\\(","\\\)"]]
+          var runderscore = function(match){
+              return match.replace(/\_/gmi,'\\_');
+          }
+          for( i=0; i<delimters.length;i++){
+            regst= delimeters[i][0]+"([\s\S]*?)"+delimeters[i][0];
+            regex=new RegExp(pattern,"/gmi");
+            data= data.replace(regex,runderscore); // Handle underscore by \_    
+          }
           // only change if _ is within math symbols http://stackoverflow.com/a/1454936
           console.log(data);
           $('#my-pagination-content').html(marked(data));

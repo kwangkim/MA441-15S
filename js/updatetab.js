@@ -27,9 +27,9 @@ function updatetab(url, pane) {
             content.html(data);
           });
           */
-          content.html(data);
+          content.innerHTML=data;
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, content]);
-          content.html(marked(content.innerhtml));
+          content.innerHTML=marked(content.innerHTML));
         } else {
           content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);

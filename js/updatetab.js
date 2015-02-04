@@ -29,8 +29,7 @@ function updatetab(url, pane) {
           */
           content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
-          console.log(content.html);
-          content.html(marked(content.html));
+          content.html(marked(content.html()));
         } else {
           content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);

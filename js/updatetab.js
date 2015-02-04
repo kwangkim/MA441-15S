@@ -14,7 +14,7 @@ function updatetab(url, pane) {
           }
           for( i=0; i<delimters.length;i++){
             regst= delimeters[i][0]+"([\s\S]*?)"+delimeters[i][0];
-            regex=new RegExp(pattern,"/gmi");
+            regex=new RegExp(pattern,"gmi");
             data= data.replace(regex,runderscore); // Handle underscore by \_    
           }
           // only change if _ is within math symbols http://stackoverflow.com/a/1454936

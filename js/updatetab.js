@@ -7,7 +7,10 @@ function updatetab(url, pane) {
       ismd = false;
     }
     $.get(url, function(data) {
-         content=$('#my-pagination-content')
+         content=$('#my-pagination-content');
+         function runmarked(){
+            content.innerHTML=marked(content.innerHTML);
+         }
         if (ismd) {
           /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
           var runderscore = function(match){
@@ -29,8 +32,8 @@ function updatetab(url, pane) {
           */
           content.innerHTML=data;
           console.log(content.innerHTML);
-          MathJax.Hub.Queue(["Typeset", MathJax.Hub,content.attr('id') ]);
-          content.innerHTML=marked(content.innerHTML);
+          MathJax.Hub.Queue(["Typeset", MathJax.Hub,content.attr('id') ], ["runmarked"]);
+          console.log(content.innerHTML);
         } else {
           content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);

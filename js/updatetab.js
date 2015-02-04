@@ -9,7 +9,14 @@ var Latexdown={
   mjRunning: false,  // true when MathJax is processing
   oldText: null,     // used to check if an update is needed
   
-  
+  Init: function (pid,eid) {
+    this.previewid=pid;
+    this.eventtabid=eid;
+    this.preview=document.getElementById(this.previewid);
+    console.log("id1"+this.previewid);
+    initial=$('#'+this.preivewid+' a .active');
+    this.UpdateTab(initial.attr("data-url"),initial);
+  }, 
   Update: function () {
     if (this.timeout) {clearTimeout(this.timeout)}
     this.timeout = setTimeout(this.callback,this.delay);
@@ -38,8 +45,6 @@ var Latexdown={
         if (this.mjRunning) return;
         var text = data;
         if (text === this.oldtext) return;
-        console.log("id:"+this.previewid);
-        this.preview=document.getElementById(this.previewid);
         console.log("previe2w"+this.previewid);
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;
@@ -52,14 +57,7 @@ var Latexdown={
         makerbutton();
         pane.tab('show');
     });
-  },Init: function (pid,eid) {
-    this.previewid=pid;
-    this.eventtabid=eid;
-    this.preview=document.getElementById(this.previewid);
-    console.log("id1"+this.previewid);
-    initial=$('#'+this.preivewid+' a .active');
-    this.UpdateTab(initial.attr("data-url"),initial);
-  } 
+  }
 };
 /*Latexdown.callback=MathJax.Callback(["UpdateTab",Latexdown]);
 Latexdown.callback.autoReset = true; */

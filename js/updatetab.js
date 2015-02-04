@@ -40,18 +40,15 @@ var Latexdown={
     }
   },
   UpdateTab: function(url , pane){
+    var _this=this;
     $.get(url, function(data) {
-        console.log("url:"+url);
-        console.log("pane:"+pane);
         //this.timeout = null;
-        if (this.mjRunning) return;
+        if (_this.mjRunning) return;
         var text = data;
-        if (text === this.oldtext) return;
-        this.preview=document.getElementById(my-pagination-content);
-        console.log("preview"+this.preview);
-        this.preview.innerHTML = this.oldtext = text;
+        if (text === _this.oldtext) return;
+        _this.preview.innerHTML = _this.oldtext = text;
         this.mjRunning = true;
-        if(this.IsMarkdown(url)){
+        if(_this.IsMarkdown(url)){
             MathJax.Hub.Queue(["Typeset",MathJax.Hub,this.preview],["PreviewMark",this]);
         }
         else{

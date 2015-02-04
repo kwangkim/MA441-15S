@@ -47,12 +47,12 @@ var Latexdown={
         var text = data;
         if (text === _this.oldtext) return;
         _this.preview.innerHTML = _this.oldtext = text;
-        this.mjRunning = true;
+        _this.mjRunning = true;
         if(_this.IsMarkdown(url)){
-            MathJax.Hub.Queue(["Typeset",MathJax.Hub,this.preview],["PreviewMark",this]);
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewMark",_this]);
         }
         else{
-            MathJax.Hub.Queue(["Typeset",MathJax.Hub,this.preview],["PreviewHTML",this]);
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewHTML",_this]);
         }
         makerbutton();
         pane.tab('show');

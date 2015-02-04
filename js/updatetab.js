@@ -8,7 +8,7 @@ function updatetab(url, pane) {
     }
     $.get(url, function(data) {
         if (ismd) {
-          var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
+          /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
           var runderscore = function(match){
               console.log("match:"+match);
               return '<span class="math">'+match+'</span>';
@@ -17,8 +17,9 @@ function updatetab(url, pane) {
             pattern= delimiters[i][0]+'(.*?)'+delimiters[i][1];
             console.log(pattern);
             regex=new RegExp(pattern,'gmi');
-            data= data.replace(regex,runderscore); // Handle underscore by \_    
+            data= data.replace(regex,runderscore); // Handle underscore by \_ 
           }
+          */
           // only change if _ is within math symbols http://stackoverflow.com/a/1454936
           console.log(data);
           $('#my-pagination-content').html(marked(data));

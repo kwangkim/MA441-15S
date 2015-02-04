@@ -34,7 +34,7 @@ Latexdown={
         return true;
     }
   }
-  UpdateTab: function (url , pane){
+  UpdateTab: function(url , pane){
     /*$.get(url, function(data) {
       /*
         Latexdown.timeout = null;

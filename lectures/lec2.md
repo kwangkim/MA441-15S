@@ -36,15 +36,13 @@ Assume problem A is reducible to an easy problem B. If we can solve problem B, t
 The **Secant line** \\(\overline{PQ}\\) is the line passing through point \\(P\\) and \\(Q\\).
 
 How can you find the slope of the secan tline \\(\overline{PQ}\\), \\(m_{PQ}\\)?
-<div class="row text-center">
-<div class="col-md-4">
+
 ![Tangent and secant](http://www.themathpage.com/acalc/calc_IMG/004c.gif)
-</div>
-<div class="col-md-4">
+
 \\[m_{PQ}=\frac{y_2-y_1}{x_2-x_1}\\]
-</div>
-</div>
+
 #### How can you calculate the slope of tangent line at a point \\(P\\)?
+
 Find the slope of tangent line of \\(f(x)=\frac{x^2}{4}\\) at \\(x=2\\).
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/611503/width/800/height/547/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="547px" style="border:0px;"> </iframe>
 

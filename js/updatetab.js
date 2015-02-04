@@ -56,7 +56,7 @@ Latexdown={
     this.preview=document.getElementById(this.previewid);
     console.log("preview"+this.preview);
     initial=$('#'+this.preivewid+' a .active');
-    UpdateTab(initial.attr("data-url"),initial);
+    this.UpdateTab(initial.attr("data-url"),initial);
   } 
 };
 /*Latexdown.callback=MathJax.Callback(["UpdateTab",Latexdown]);

@@ -9,7 +9,7 @@ function updatetab(url, pane) {
     $.get(url, function(data) {
         if (ismd) {
           console.log("replace!");
-           data.replace('_','\_');   
+          data= data.replace('_','\_');   
           // Handle underscore by \_
           $('#my-pagination-content').html(marked(data));
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);

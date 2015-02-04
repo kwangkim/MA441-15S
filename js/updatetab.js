@@ -40,7 +40,7 @@ Latexdown={
         if (text === this.oldtext) return;
         console.log("id:"+this.previewid);
         this.preview=document.getElementById(this.previewid);
-        console.log("previe2w"+this.preview);
+        console.log("previe2w"+this.previewid);
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;
         if(IsMarkdown(url)){

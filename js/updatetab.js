@@ -41,11 +41,11 @@ var Latexdown={
   },
   UpdateTab: function(url , pane){
     $.get(url, function(data) {
-        Latexdown.timeout = null;
+        this.timeout = null;
         if (this.mjRunning) return;
         var text = data;
         if (text === this.oldtext) return;
-        console.log("previe2w"+this.previewid);
+        console.log("id2:"+this.previewid);
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;
         if(IsMarkdown(url)){

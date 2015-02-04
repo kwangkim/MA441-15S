@@ -10,7 +10,7 @@ function updatetab(url, pane) {
         if (ismd) {
           var delimiters=[["\\\[","\\\]"],["\\\(","\\\)"]]
           var runderscore = function(match){
-              return match.replace(/_/gmi,'\\_');
+              return '<span class="math">'+match+'</span>';
           }
           for( i=0; i< delimiters.length; i++){
             pattern= delimiters[i][0]+"([\s\S]*?)"+delimiters[i][0];

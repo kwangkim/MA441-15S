@@ -7,7 +7,7 @@ function updatetab(url, pane) {
       ismd = false;
     }
     $.get(url, function(data) {
-        var content=$('#my-pagination-content'); 
+         content=$('#my-pagination-content')
         if (ismd) {
           /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
           var runderscore = function(match){
@@ -26,7 +26,7 @@ function updatetab(url, pane) {
           MathJax.Hub.Register.MessageHook("End Process", function (message) {
             content.html(data);
           });
-          content.html(marked($content.html));
+          content.html(marked(content.html));
         } else {
           content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);

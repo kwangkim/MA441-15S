@@ -4,11 +4,12 @@
   </div>
 </div>
 <script>
+    Latexdown.Init('#my-pagination-content');
     $('#event-tab a').click(function(e) {
       e.preventDefault();
       var url = $(this).attr("data-url");
       var pane = $(this);
-      updatetab(url, pane);
+      Latexdown.UpdateTab(url, pane);
     });
-    updatetab($('#event-tab .active a').attr("data-url"), $('#event-tab .active a'));
+    Latexdown.UpdateTab($('#event-tab .active a').attr("data-url"), $('#event-tab .active a'));
 </script> 

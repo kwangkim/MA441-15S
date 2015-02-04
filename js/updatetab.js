@@ -28,6 +28,7 @@ function updatetab(url, pane) {
           });
           */
           content.innerHTML=data;
+          console.log(content.innerHTML);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, content]);
           content.innerHTML=marked(content.innerHTML);
         } else {

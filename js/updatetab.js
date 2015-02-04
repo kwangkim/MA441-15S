@@ -46,6 +46,7 @@ var Latexdown={
         var text = data;
         if (text === this.oldtext) return;
         console.log("id2:"+this.previewid);
+        this.preview=$("#my-pagination-content");
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;
         if(IsMarkdown(url)){

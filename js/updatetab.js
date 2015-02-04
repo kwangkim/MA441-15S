@@ -1,4 +1,4 @@
-var Latexdown={
+Latexdown={
   delay: 150,        // delay after keystroke before updating
 
   original: null,
@@ -35,8 +35,6 @@ var Latexdown={
     }
   }
   UpdateTab: function (url,pane){
-    // http://docs.mathjax.org/en/latest/tex.html
-    // From http://stackoverflow.com/a/651735
     $.get(url, function(data) {
         Preview.timeout = null;
         if (this.mjRunning) return;

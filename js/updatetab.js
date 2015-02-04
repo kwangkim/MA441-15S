@@ -11,6 +11,7 @@ function updatetab(url, pane) {
           
           data= data.replace(/(?<=\\[)(\_)(?=\\])/gi,'\\\_'); // Handle underscore by \_
           // only change if _ is within math symbols http://stackoverflow.com/a/1454936
+          console.log(data);
           $('#my-pagination-content').html(marked(data));
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
         } else {

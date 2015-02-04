@@ -15,6 +15,7 @@ var Latexdown={
     this.preview=document.getElementById(this.previewid);
     console.log(this.previewid);
     var id='#'+this.preivewid+' a .active';
+    console.log(id);
     var initial=$(id);
     console.log(initial);
     this.UpdateTab(initial.attr("data-url"),initial);

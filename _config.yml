@@ -8,8 +8,18 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
-highlighter: pygments
-excerpt_separator: ""
+  math_engine_opts : {MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+  jax: ["input/TeX"],
+  tex2jax: {
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: false
+  }
+})}
+  highlighter: pygments
+  excerpt_separator: ""
 
 ### content configuration ###
 title:       "MA441"

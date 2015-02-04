@@ -1,4 +1,4 @@
-Latexdown={
+var Latexdown={
   delay: 150,        // delay after keystroke before updating
 
   previewid: null,
@@ -52,9 +52,9 @@ Latexdown={
         makerbutton();
         pane.tab('show');
     });
-  },Init: function (previewid,eventtabid) {
-    this.previewid=previewid;
-    this.eventtabid=eventtabid;
+  },Init: function (pid,eid) {
+    this.previewid=pid;
+    this.eventtabid=eid;
     this.preview=document.getElementById(this.previewid);
     console.log("id1"+this.previewid);
     initial=$('#'+this.preivewid+' a .active');

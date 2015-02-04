@@ -7,8 +7,8 @@ function updatetab(url, pane) {
       ismd = false;
     }
     $.get(url, function(data) {
+        var content=$('#my-pagination-content'); 
         if (ismd) {
-           content=$('#my-pagination-content'); 
           /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
           var runderscore = function(match){
               console.log("match:"+match);

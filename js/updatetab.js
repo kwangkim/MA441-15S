@@ -23,9 +23,12 @@ function updatetab(url, pane) {
           */
           // only change if _ is within math symbols http://stackoverflow.com/a/1454936
           console.log(data);
-          MathJax.Hub.Register.MessageHook("End Process", function (message) {
+          /*MathJax.Hub.Register.MessageHook("End Process", function (message) {
             content.html(data);
           });
+          */
+          content.html(data);
+          MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
           content.html(marked(content.html));
         } else {
           content.html(data);

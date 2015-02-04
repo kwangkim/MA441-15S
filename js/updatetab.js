@@ -9,7 +9,7 @@ function updatetab(url, pane) {
     $.get(url, function(data) {
         if (ismd) {
           
-          data= data.replace('\_','\\\_');   
+          data= data.replace(/\_/gi,'\\\_');   
           console.log(data);
           // Handle underscore by \_
           $('#my-pagination-content').html(marked(data));

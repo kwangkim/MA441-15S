@@ -12,8 +12,8 @@ function updatetab(url, pane) {
           var runderscore = function(match){
               return match.replace(/\_/gmi,'\\_');
           }
-          for( i=0; i<delimters.length;i++){
-            regst= delimeters[i][0]+"([\s\S]*?)"+delimeters[i][0];
+          for( i=0; i< delimiters.length; i++){
+            regst= delimiters[i][0]+"([\s\S]*?)"+delimiters[i][0];
             regex=new RegExp(pattern,"gmi");
             data= data.replace(regex,runderscore); // Handle underscore by \_    
           }

@@ -9,14 +9,7 @@ Latexdown={
   mjRunning: false,  // true when MathJax is processing
   oldText: null,     // used to check if an update is needed
   
-  Init: function (previewid,eventtabid) {
-    this.previewid=previewid;
-    this.eventtabid=eventtabid;
-    this.preview=document.getElementById(this.previewid);
-    console.log("preview"+this.preview);
-    initial=$('#'+this.preivewid+'a .active');
-    UpdateTab(initial.attr("data-url"),initial);
-  },
+  
   Update: function () {
     if (this.timeout) {clearTimeout(this.timeout)}
     this.timeout = setTimeout(this.callback,this.delay);
@@ -57,6 +50,13 @@ Latexdown={
         makerbutton();
         pane.tab('show');
     });
+  },Init: function (previewid,eventtabid) {
+    this.previewid=previewid;
+    this.eventtabid=eventtabid;
+    this.preview=document.getElementById(this.previewid);
+    console.log("preview"+this.preview);
+    initial=$('#'+this.preivewid+'a .active');
+    UpdateTab(initial.attr("data-url"),initial);
   } 
 };
 /*Latexdown.callback=MathJax.Callback(["UpdateTab",Latexdown]);

@@ -13,7 +13,6 @@ var Latexdown={
     this.previewid=pid;
     this.eventtabid=eid;
     this.preview=document.getElementById(this.previewid);
-    console.log("id1"+this.previewid);
     initial=$('#'+this.preivewid+' a .active');
     this.UpdateTab(initial.attr("data-url"),initial);
   }, 
@@ -48,7 +47,7 @@ var Latexdown={
         if (text === _this.oldtext) return;
         _this.preview.innerHTML = _this.oldtext = text;
         _this.mjRunning = true;
-        console.log("url:"+url);
+        console.log(url);
         if(_this.IsMarkdown(url)){
             MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewMark",_this]);
         }

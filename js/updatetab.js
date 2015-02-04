@@ -41,7 +41,9 @@ var Latexdown={
   },
   UpdateTab: function(url , pane){
     $.get(url, function(data) {
-        this.timeout = null;
+        console.log("url:"+url);
+        console.log("pane:"+pane);
+        //this.timeout = null;
         if (this.mjRunning) return;
         var text = data;
         if (text === this.oldtext) return;

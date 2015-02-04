@@ -38,7 +38,7 @@ Latexdown={
         if (this.mjRunning) return;
         var text = data;
         if (text === this.oldtext) return;
-        
+        console.log("id:"+this.previewid);
         this.preview=document.getElementById(this.previewid);
         console.log("previe2w"+this.preview);
         this.preview.innerHTML = this.oldtext = text;

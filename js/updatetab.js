@@ -43,7 +43,7 @@ Latexdown={
         var text = data;
         if (text === this.oldtext) return;
         this.preview=document.getelementbyid(this.previewid);
-        console.log(this.preview);
+        console.log("preview"+this.preview);
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;
         if(IsMarkdown(url)){

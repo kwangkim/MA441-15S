@@ -41,9 +41,7 @@ How can you find the slope of the secan tline \\(\overline{PQ}\\), \\(m_{PQ}\\)?
 ![Tangent and secant](http://www.themathpage.com/acalc/calc_IMG/004c.gif)
 </div>
 <div class="col-md-4">
-\\[
-m_{PQ}=\\frac{y_2-y_1}{x_2-x_1}
-\\]
+\\[m_{PQ}=\frac{y_2-y_1}{x_2-x_1}\\]
 </div>
 </div>
 #### How can you calculate the slope of tangent line at a point \\(P\\)?

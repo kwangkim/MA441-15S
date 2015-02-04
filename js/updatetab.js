@@ -35,8 +35,7 @@ Latexdown={
     }
   },
   UpdateTab: function(url , pane){
-    /*$.get(url, function(data) {
-      /*
+    $.get(url, function(data) {
         Latexdown.timeout = null;
         if (this.mjRunning) return;
         var text = data;
@@ -49,10 +48,9 @@ Latexdown={
         else{
             MathJax.Hub.Queue(["Typeset",MathJax.Hub,this.preview],["PreviewHTML",this]);
         }
-        */
         makerbutton();
         pane.tab('show');
-    });*/
+    });
   } 
 };
 Latexdown.callback=athJax.Callback(["UpdateTab",Latexdown]);

@@ -1,7 +1,8 @@
 Latexdown={
   delay: 150,        // delay after keystroke before updating
 
-  original: null,
+  previewid: null,
+  eventtapid: null,
   preview: null,     // filled in by Init below
 
   timeout: null,     // store setTimout id
@@ -9,8 +10,8 @@ Latexdown={
   oldText: null,     // used to check if an update is needed
   
   Init: function (previewid,eventtabid) {
-    this.preview = document.getElementById(previewid);
-    Latexdown.UpdateTab($('#'+eventtabid+' .active a').attr("data-url"), $('#'+eventtabid+' .active a'));
+    this.previewid=previewid;
+    this.eventtabid=eventtabid;
   },
   Update: function () {
     if (this.timeout) {clearTimeout(this.timeout)}
@@ -41,6 +42,7 @@ Latexdown={
         if (this.mjRunning) return;
         var text = data;
         if (text === this.oldtext) return;
+        this.preview=document.getelementbyid(this.previewid);
         console.log(this.preview);
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;

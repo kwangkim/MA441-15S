@@ -49,7 +49,7 @@ var Latexdown={
         this.preview=$("#my-pagination-content");
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;
-        if(IsMarkdown(url)){
+        if(this.IsMarkdown(url)){
             MathJax.Hub.Queue(["Typeset",MathJax.Hub,this.preview],["PreviewMark",this]);
         }
         else{

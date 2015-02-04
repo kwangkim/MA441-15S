@@ -6,11 +6,11 @@ function updatetab(url, pane) {
     if ($.inArray(ext, ['md', 'markdown', 'mdown', 'mkdn', 'mkd', 'mdtxt', 'mdtext']) == -1) {
       ismd = false;
     }
-    $.get(url, function(data) {
-         content=$('#my-pagination-content');
-         runmarked= function(){
+    content=$('#my-pagination-content');
+    runmarked= function(){
             content.innerHTML=marked(content.innerHTML);
-         }
+    }
+    $.get(url, function(data) {
         if (ismd) {
           /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
           var runderscore = function(match){

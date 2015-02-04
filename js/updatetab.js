@@ -12,7 +12,7 @@ Latexdown={
   Init: function (previewid,eventtabid) {
     this.previewid=previewid;
     this.eventtabid=eventtabid;
-    this.preview=document.getelementbyid(this.previewid);
+    this.preview=document.getElementById(this.previewid);
     console.log("preview"+this.preview);
     initial=$('#'+preivewid+'a .active');
     UpdateTab(initial.attr("data-url"),initial);

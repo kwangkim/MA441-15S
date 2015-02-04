@@ -1,46 +1,59 @@
-function updatetab(url, pane) {
-// http://docs.mathjax.org/en/latest/tex.html
-    // From http://stackoverflow.com/a/651735
-    var ext = url.split('.').pop().toLowerCase();
-    var ismd = true;
+var Latexdown={
+  delay: 150,        // delay after keystroke before updating
+
+  original: null,
+  preview: null,     // filled in by Init below
+
+  timeout: null,     // store setTimout id
+  mjRunning: false,  // true when MathJax is processing
+  oldText: null,     // used to check if an update is needed
+  
+  Init: function (preview) {
+    this.preview = document.getElementById(preview);
+  
+  },
+  Update: function () {
+    if (this.timeout) {clearTimeout(this.timeout)}
+    this.timeout = setTimeout(this.callback,this.delay);
+  },
+  PreviewHtml: function () {
+    this.mjRunning = false;
+  },
+  PreviewMark: function () {
+    this.mjRunning = false;
+    text = this.preview.innerHTML;
+    text = text.replace(/^&gt;/mg, '>');
+    this.preview.innerHTML = marked (text);
+  },
+  IsMarkdown: function(url){
+    ext = url.split('.').pop().toLowerCase();  
     if ($.inArray(ext, ['md', 'markdown', 'mdown', 'mkdn', 'mkd', 'mdtxt', 'mdtext']) == -1) {
-      ismd = false;
+        return false;
     }
-    content=$('#my-pagination-content');
-    runmarked= function(t){
-            t.innerHTML=marked(content.innerHTML);
-    };
+    else{
+        return true;
+    }
+  }
+  UpdateTab: function (url,pane){
+    // http://docs.mathjax.org/en/latest/tex.html
+    // From http://stackoverflow.com/a/651735
     $.get(url, function(data) {
-        if (ismd) {
-          /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
-          var runderscore = function(match){
-              console.log("match:"+match);
-              return '<span class="math">'+match+'</span>';
-          }
-          for( i=0; i< delimiters.length; i++){
-            pattern= delimiters[i][0]+'(.*?)'+delimiters[i][1];
-            console.log(pattern);
-            regex=new RegExp(pattern,'gmi');
-            data= data.replace(regex,runderscore); // Handle underscore by \_ 
-          }
-          */
-          /*only change if _ is within math symbols http://stackoverflow.com/a/1454936
-          console.log(data);
-          MathJax.Hub.Register.MessageHook("End Process", function (message) {
-            content.html(data);
-          });
-          */
-          content.innerHTML=data;
-          console.log(content.innerHTML);
-          MathJax.Hub.Queue(["Typeset", '#my-pagination-content'  ], ["console.log",content.innerHTML]);
-        } else {
-          content.html(data);
-          MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
+        Preview.timeout = null;
+        if (this.mjRunning) return;
+        var text = data;
+        if (text === this.oldtext) return;
+        this.preview.innerHTML = this.oldtext = text;
+        this.mjRunning = true;
+        if(IsMarkdown(url)){
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub,this.preview],["PreviewMark",this]);
         }
-        console.log('makerbutton');
-        makerbutton(); //Update buttons.
+        else{
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub,this.preview],["PreviewHTML",this]);
+        }
+        makerbutton();
         pane.tab('show');
     });
-  }
-
-
+  } 
+};
+Latexdown.callback=athJax.Callback(["UpdateTab",Latexdown]);
+Latexdown.callback.autoReset = true; 

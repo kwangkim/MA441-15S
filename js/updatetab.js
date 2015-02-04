@@ -12,6 +12,10 @@ Latexdown={
   Init: function (previewid,eventtabid) {
     this.previewid=previewid;
     this.eventtabid=eventtabid;
+    this.preview=document.getelementbyid(this.previewid);
+    console.log("preview"+this.preview);
+    initial=$('#'+preivewid+'a .active');
+    UpdateTab(initial.attr("data-url"),initial);
   },
   Update: function () {
     if (this.timeout) {clearTimeout(this.timeout)}
@@ -42,8 +46,6 @@ Latexdown={
         if (this.mjRunning) return;
         var text = data;
         if (text === this.oldtext) return;
-        this.preview=document.getelementbyid(this.previewid);
-        console.log("preview"+this.preview);
         this.preview.innerHTML = this.oldtext = text;
         this.mjRunning = true;
         if(IsMarkdown(url)){

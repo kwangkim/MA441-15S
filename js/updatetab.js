@@ -20,7 +20,9 @@ function updatetab(url, pane) {
           // only change if _ is within math symbols http://stackoverflow.com/a/1454936
           console.log(data);
           $('#my-pagination-content').html(marked(data));
-          MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
+          MathJax.Hub.Register.MessageHook("End Process", function (message) {
+            $('#my-pagination-content').html( marked(data));
+          });
         } else {
           $('#my-pagination-content').html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);

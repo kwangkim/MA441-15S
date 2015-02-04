@@ -13,7 +13,7 @@ function updatetab(url, pane) {
               return '<span class="math">'+match+'</span>';
           }
           for( i=0; i< delimiters.length; i++){
-            pattern= delimiters[i][0]+"([\s\S]*?)"+delimiters[i][0];
+            pattern= delimiters[i][0]+'([\s\S]*?)'+delimiters[i][0];
             console.log(pattern);
             regex=new RegExp(pattern,'gmi');
             data= data.replace(regex,runderscore); // Handle underscore by \_    

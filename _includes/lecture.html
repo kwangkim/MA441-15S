@@ -4,8 +4,7 @@
   </div>
 </div>
 <script>
-    Latexdown.Init('my-pagination-content',Latexdown.UpdateTab($('#event-tab .active a').attr("data-url"), $('#event-tab .active a')));
-    
+    Latexdown.Init('my-pagination-content',"event-tab");
     $('#event-tab a').click(function(e) {
       e.preventDefault();
       var url = $(this).attr("data-url");

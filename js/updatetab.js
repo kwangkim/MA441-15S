@@ -8,6 +8,7 @@ function updatetab(url, pane) {
     }
     $.get(url, function(data) {
         if (ismd) {
+           content=$('#my-pagination-content'); 
           /*var delimiters=[["\\\\\[","\\\\\]"],["\\\\\(","\\\\\)"]]
           var runderscore = function(match){
               console.log("match:"+match);
@@ -22,12 +23,12 @@ function updatetab(url, pane) {
           */
           // only change if _ is within math symbols http://stackoverflow.com/a/1454936
           console.log(data);
-          $('#my-pagination-content').html(marked(data));
           MathJax.Hub.Register.MessageHook("End Process", function (message) {
-            $('#my-pagination-content').html( marked(data));
+            content.html(data);
           });
+          content.html(marked($content.html));
         } else {
-          $('#my-pagination-content').html(data);
+          content.html(data);
           MathJax.Hub.Queue(["Typeset", MathJax.Hub, "my-pagination-content"]);
         }
         console.log('makerbutton');

@@ -10,7 +10,7 @@ Latexdown={
   
   Init: function (previewid,eventtabid) {
     this.preview = document.getElementById(previewid);
-    Latexdown.UpdateTab($('#'+eventtabid).find('.active a').attr("data-url"), $('#'+eventtabid).find( '.active a'));
+    Latexdown.UpdateTab($('#'+eventtabid+' .active a').attr("data-url"), $('#'+eventtabid+' .active a'));
   },
   Update: function () {
     if (this.timeout) {clearTimeout(this.timeout)}

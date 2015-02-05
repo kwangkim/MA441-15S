@@ -26,10 +26,10 @@ $$ \lim_{x\to 0} \sqrt{x}=$$
 If
 $$
 f(x)=\left\{
-\begin{array}{ll}
+\\begin{array}{ll}
 \sqrt{x-4} & x>4\\
 8-2x & x<4
-\end{array}
+\\end{array}
 \right.
 $$
 1. Find

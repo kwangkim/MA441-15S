@@ -15,13 +15,13 @@ Otherwise, we say $f$ is discontinuous at $a$
 ### [Classification of discontinuities](http://en.wikipedia.org/wiki/Classification_of_discontinuities)
 
 #### Removable discontinuity (Hole)
-![pic](http://upload.wikimedia.org/wikipedia/commons/9/9d/Discontinuity_removable.eps.png)
+![picw300](http://upload.wikimedia.org/wikipedia/commons/9/9d/Discontinuity_removable.eps.png)
 
 #### Jump discontinuity (Jump)
-![pic](http://upload.wikimedia.org/wikipedia/commons/e/e6/Discontinuity_jump.eps.png)
+![picw300](http://upload.wikimedia.org/wikipedia/commons/e/e6/Discontinuity_jump.eps.png)
 
 #### essential discontinuity (infinity)
-![pic](http://upload.wikimedia.org/wikipedia/commons/9/92/Discontinuity_essential.eps.png)
+![picw300](http://upload.wikimedia.org/wikipedia/commons/9/92/Discontinuity_essential.eps.png)
 (When one of onsided limits does not exist or infinite)
 
 

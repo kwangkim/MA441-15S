@@ -46,7 +46,7 @@ var Latexdown={
         _this.preview.innerHTML = _this.oldtext = text;
         _this.mjRunning = true;
         console.log(url);
-        if(_this.IsMarkdown(url) ){
+        if(_this.IsMarkdown(url) &&false ){
             MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewMark",_this]);
         }
         else{

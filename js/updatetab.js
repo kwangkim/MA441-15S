@@ -50,7 +50,8 @@ var Latexdown={
             MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewMark",_this]);
         }
         else{
-            MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewHTML",_this]);
+        //    MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewHTML",_this]);
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview]);
         }
         makerbutton();
         pane.tab('show');

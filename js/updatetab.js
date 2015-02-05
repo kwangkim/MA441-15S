@@ -43,6 +43,7 @@ var Latexdown={
     
   },
   IsMarkdown: function(url){
+    if( url== null) return false;
     ext = url.split('.').pop().toLowerCase();  
     if ($.inArray(ext, ['md', 'markdown', 'mdown', 'mkdn', 'mkd', 'mdtxt', 'mdtext']) == -1) {
         return false;

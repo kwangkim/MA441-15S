@@ -13,7 +13,7 @@ var Latexdown={
     this.previewid=pid;
     this.eventtabid=eid;
     this.preview=document.getElementById(this.previewid);
-    console.log(this.previewid);
+    console.log(this.eventtabid);
     var id='#'+this.eventtabid;
     id=id+' a .active';
     console.log(id);

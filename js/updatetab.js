@@ -14,8 +14,7 @@ var Latexdown={
     this.eventtabid=eid;
     this.preview=document.getElementById(this.previewid);
     var initial=$("#event-tab a .active"); 
-    console.log(initial);
-    console.log(initial.attr("data-url"));
+    console.log($("#event-tab a .active").attr("data-url"));
     this.UpdateTab(initial.attr("data-url"),initial);
   }, 
   Update: function () {

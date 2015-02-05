@@ -48,7 +48,7 @@ $$ \frac{1}{x}>0$$
 But
 $$  \lim_{x\to \infty} \frac{1}{x}=0$$ 
 
-### (The squeeze Theorem) If $f(x)\leq g(x)\leq h(x)$  when $x$ is near $a($x\neq a$) and 
+### (The squeeze Theorem) If $f(x)\leq g(x)\leq h(x)$  when $x$ is near $a$($x\neq a$) and 
 $$\lim_{x\to a} f(x)=\lim_{x\to a} h(x)=L$$
 Then
 $$

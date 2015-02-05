@@ -96,5 +96,21 @@ $$
 #### Example 5. Evaluate
 $$ \lim_{x\to \pi} \frac{\sin{x}}{2\cos{x}}$$
 
+### Theorem
+If $f$ is **continuous at $b$ and $\lim_{x\to a} g(x)=b$, then 
+$$\lim_{x\to a}=f(\lim_{x\to a} g(x))=f(b)$$
+In other words, a evaluation of a continuous function commutes with thel limit process.
+
+#### Corollary 1
+$$
+\lim_{x\to a} \sqrt[n]{g(x)}=\sqrt[n]{\lim_{x\to a}g(x)} 
+$$
+#### Corollary 2 
+If $g$ is continuous at $a$ and $f$ is continuous at $g(a)$, then the composite function $f\circ g$ is continuous at $a$.
+
+#### Example 6 Where are the following functions continuous?
+1. $h(x)=sin(x^2)$
+2. $F(x)=\frac{1}{\sqrt{x^2+7} -4}$
+
 
 

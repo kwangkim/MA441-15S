@@ -32,6 +32,13 @@ f(x)=\left\{
 \\end{array}
 \right.
 $$
+
+
+\\begin{array}{cc}
+  a & b \\\\
+  c & c
+\\end{array}
+
 1. Find
 $$ \lim_{x\to 4} f(x)$$
 2. Graph $y=f(x)$.

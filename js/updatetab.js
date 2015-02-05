@@ -46,12 +46,11 @@ var Latexdown={
         _this.preview.innerHTML = _this.oldtext = text;
         _this.mjRunning = true;
         console.log(url);
-        if(_this.IsMarkdown(url) &&false ){
+        if(_this.IsMarkdown(url)  ){
             MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewMark",_this]);
         }
         else{
-        //    MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewHTML",_this]);
-        MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview]);
+            MathJax.Hub.Queue(["Typeset",MathJax.Hub,_this.preview],["PreviewHTML",_this]);
         }
         makerbutton();
         pane.tab('show');

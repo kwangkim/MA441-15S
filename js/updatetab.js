@@ -19,6 +19,7 @@ var Latexdown={
     console.log(id);
     var initial=$(id);
     console.log(initial);
+    console.log(initial.attr("data-url"));
     this.UpdateTab(initial.attr("data-url"),initial);
   }, 
   Update: function () {

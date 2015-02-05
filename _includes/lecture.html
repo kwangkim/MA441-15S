@@ -13,7 +13,7 @@
     $('#event-tab a').click(function(e) {
       e.preventDefault();
       var url = $(this).attr("data-url");
-      console("url:"+url);
+      console.log("url:"+url);
       var pane = $(this);
       Latexdown.UpdateTab(url, pane);
     });

@@ -2,9 +2,11 @@
 <div class="tab-content">
   <div role="tabpanel" class="tab-pane active in" id="my-pagination-content">
   </div>
+  <div role="tabpanel" class="tab-pane active in" id="my-pagination-buffer">
+  </div>
 </div>
 <script>
-    Latexdown.Init('my-pagination-content','event-tab');
+    Latexdown.Init('my-pagination-content','event-tab','my-pagination-buffer');
     $('#event-tab a').click(function(e) {
       e.preventDefault();
       var url = $(this).attr("data-url");

@@ -66,4 +66,5 @@ $$
 \lim_{x\to a} x^2\cdot\sin(\frac{1}{x})=(\lim_{x\to a} x^2)\cdot\lim_{x\to a}(\sin(\frac{1}{x}))
 $$
 Why not?
+
 ![picw300](http://upload.wikimedia.org/wikipedia/commons/3/30/Squeeze_theorem_example.svg)

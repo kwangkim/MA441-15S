@@ -42,7 +42,7 @@ $$
 f(x)=
 \left\{
 \begin{array}{ll}
-=\frac{x^2-x-2}{x-2}& x\neq 2\\
+\frac{x^2-x-2}{x-2}& x\neq 2\\
 1 & x=2
 \end{array}
 \right.
@@ -51,7 +51,7 @@ $$
 
 
 
-### A function $f$ is Continuous from the right at a number $a$ if
+### A function $f$ is Continuous from the left at a number $a$ if
 
 
 ### Definition
@@ -60,10 +60,10 @@ A function $f$ is continous on an interval if it is continuos at every number in
 #### We should handle two endpoints carefully.
 
 #### Example 2. Check whether the function $f(x)=1-\sqrt{1-x}$ is continuous on the interval $[-1,1]$.
-(Interior points:  $-1<a<1$)
+(Interior points)  $-1<a<1$
 
 
-(End points:$a=-1$ or $a=1$)
+(End points) $a=-1$ or $a=1$
 
 
 ### Theorem 

@@ -60,5 +60,8 @@ var Latexdown={
     });
   }
 };
+
+/*
 Latexdown.callback=MathJax.Callback(["UpdateTab",Latexdown]);
-Latexdown.callback.autoReset = true; 
+Latexdown.callback.autoReset = true;
+*/

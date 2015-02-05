@@ -52,7 +52,7 @@ From above experiment, what do you expect?
 Let \\(y=f(x)\\) is a position function of a car  at time \\(x\\).
 
 \\[
-average~velocity=\\frac{\Delta distance}{\Delta time}=\\frac{\Delta y}{\Delta x}=slope~of~secant~line
+average~velocity=\frac{\Delta distance}{\Delta time}=\frac{\Delta y}{\Delta x}=slope~of~secant~line
 \\]
 How about an instantaneous velocity at time \\(x\\).
 \\[

@@ -9,12 +9,12 @@
 </div>
 <script>
     Latexdown.Init('my-pagination-content','my-pagination-buffer','event-tab');
-    Latexdown.Update();
     $('#event-tab a').click(function(e) {
       e.preventDefault();
       var url = $(this).attr("data-url");
       console.log("url:"+url);
       var pane = $(this);
+      Latexdown.Update();
       Latexdown.UpdateTab(url, pane);
     });
 </script> 

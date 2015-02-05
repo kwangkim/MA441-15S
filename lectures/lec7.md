@@ -11,7 +11,7 @@ Otherwise, we say $f$ is discontinuous at $a$
 2. $\lim_{x\to a}f(x)$ exists
 3. $\lim_{x\to a}f(x)=f(a)$
 
-### [[Classification of discontinuities](http://en.wikipedia.org/wiki/Classification_of_discontinuities )|width=100px]
+### ![[Classification of discontinuities](http://en.wikipedia.org/wiki/Classification_of_discontinuities )|width=100px]
 
 #### Removable discontinuity (Hole)
 ![removable](http://upload.wikimedia.org/wikipedia/commons/9/9d/Discontinuity_removable.eps.png)

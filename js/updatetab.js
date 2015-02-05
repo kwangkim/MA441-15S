@@ -24,7 +24,7 @@ var Latexdown={
   PreviewMark: function () {
     this.mjRunning = false;
     text = this.preview.innerHTML;
-    //text = text.replace(/^&gt;/mg, '>');
+    text = text.replace(/^&gt;/mg, '>');
     this.preview.innerHTML = marked (text);
   },
   IsMarkdown: function(url){

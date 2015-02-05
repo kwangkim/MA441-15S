@@ -14,7 +14,7 @@ Otherwise, we say $f$ is discontinuous at $a$
 ### [Classification of discontinuities](http://en.wikipedia.org/wiki/Classification_of_discontinuities)
 
 #### Removable discontinuity (Hole)
-[[http://upload.wikimedia.org/wikipedia/commons/9/9d/Discontinuity_removable.eps.png | width=100px]
+[[http://upload.wikimedia.org/wikipedia/commons/9/9d/Discontinuity_removable.eps.png | width=100px]]
 
 #### Jump discontinuity (Jump)
 ![Jump](http://upload.wikimedia.org/wikipedia/commons/e/e6/Discontinuity_jump.eps.png)

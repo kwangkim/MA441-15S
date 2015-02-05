@@ -21,7 +21,15 @@ Otherwise, we say $f$ is discontinuous at $a$
 ![picw300](http://upload.wikimedia.org/wikipedia/commons/e/e6/Discontinuity_jump.eps.png)
 
 #### essential discontinuity (infinity)
-![picw300](http://upload.wikimedia.org/wikipedia/commons/9/92/Discontinuity_essential.eps.png)
 (When one of onsided limits does not exist or infinite)
+![picw300](http://upload.wikimedia.org/wikipedia/commons/9/92/Discontinuity_essential.eps.png)
+
+Example 1. Where are each of the following functions discontinuous?
+
+1. $ f(x)=\frac{x^2-x-2}{x-2}$
+2. 
+$$
+f(x)
+$$
 
 

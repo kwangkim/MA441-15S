@@ -30,6 +30,7 @@ f(x)=\left\{
 \sqrt{x-4} & x>4\\
 8-2x & x<4
 \end{array}
+\right.
 $$
 1. Find
 $$ \lim_{x\to 4} f(x)$$

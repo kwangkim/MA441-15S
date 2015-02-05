@@ -13,11 +13,7 @@ var Latexdown={
     this.previewid=pid;
     this.eventtabid=eid;
     this.preview=document.getElementById(this.previewid);
-    console.log(this.eventtabid);
-    var id='#'+this.eventtabid;
-    id=id+' a .active';
-    console.log(id);
-    var initial=$(id);
+    var initial=$(document.getElementById(this.eventtabid)).find("a .active"); 
     console.log(initial);
     console.log(initial.attr("data-url"));
     this.UpdateTab(initial.attr("data-url"),initial);

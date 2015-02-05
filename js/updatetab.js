@@ -55,11 +55,11 @@ var Latexdown={
   UpdateTab: function(url , pane){
     var _this=this;
     $.get(url, function(data) {
-        //this.timeout = null;
+        this.timeout = null;
         if (_this.mjRunning) return;
         var text = data;
         if (text === _this.oldtext) return;
-        text = _this.Escape(text);
+        //text = _this.Escape(text);
         _this.buffer.innerHTML = _this.oldtext = text;
         _this.mjRunning = true;
         if(_this.IsMarkdown(url)  ){

@@ -25,6 +25,7 @@ How to.
 4. We only need to check whether $N=0$  is between $f(a)$ and $f(b)$.
 
 Eventually, we need to prove
+
 a. $f(a)>0$ and $f(b)<0$
 
 or
@@ -34,5 +35,9 @@ b. $f(a)<0$ and $f(b)>0$
 Check $f(a)$ and $f(b)$.
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/643885/width/678/height/613/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="678px" height="613px" style="border:0px;"> </iframe>
+
+#### Example 2. Use IVT to show that there is a root of the given equation in the specified interval.
+1. $x^4+x-3=0$, $(1,2)$
+2. $\cos{x}=x$, $(0,1)$
 
 

@@ -1,3 +1,19 @@
+regex for mathjax confliction
+
+var options = {
+			_DoItalicsAndBold: function(text) {
+				// Restore original markdown implementation
+				text = text.replace(/(\*\*|__)(?=\S)(.+?[*_]*)(?=\S)\1/g,
+					"<strong>$2</strong>");
+				text = text.replace(/(\*|_)(?=\S)(.+?)(?=\S)\1/g,
+					"<em>$2</em>");
+				return text;
+			}
+		};
+
+
+
+
 react classname problem
 http://stackoverflow.com/a/25147440
 

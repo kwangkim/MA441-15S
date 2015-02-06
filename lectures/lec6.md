@@ -57,7 +57,7 @@ $$
 ![picw300](http://upload.wikimedia.org/wikipedia/commons/7/74/Generic_Squeeze_or_Sandwich_Theorem_Representation.svg)
 #### Example 11 Using the squeeze lemma, find
 $$
-\lim_{x\to a} x^2\cdot\sin(\frac{1}{x})
+\lim_{x\to a} \left(x^2\cdot\sin(\frac{1}{x}) \right)
 $$
 
 #### We cannot say

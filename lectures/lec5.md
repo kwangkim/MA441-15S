@@ -7,6 +7,24 @@
 #### Example 1
 ![e1](http://image.slidesharecdn.com/lecture5-limitlaws-140916111716-phpapp01/95/lecture-5-limit-laws-3-638.jpg?cb=1410884284)
 
+Hint for (c).
+
+Since $$\lim_{x\to 2} f(x)\approx 1.5\neq0$$ and $$ \lim_{x\to 2}  g(X)=0$$, it may give an infinite limit.
+So we need to check one-sided limits.
+
+If $$x<2$$ and $$x$$ is very close to $2$, $$f(x)>0,~g(x)<0$$.
+
+$$$
+\lim_{x\to 2^-} \frac{f(x)}{g(x)}=-\infty
+$$$
+If $$x>2$$ and $$x$$ is very close to $2$, $$f(x)>0,~g(x)>0$$.
+$$$
+\lim_{x\to 2^+} \frac{f(x)}{g(x)}=+\infty
+$$$
+Therefore,
+$$$
+\lim_{x\to 2} \frac{f(x)}{g(x)}=DNE
+$$$
 #### Example 2 Evaluation.
 
 \\[ \lim_ {x\to 5} (2x^2-3x+4) \\]

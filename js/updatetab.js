@@ -37,8 +37,8 @@ var Latexdown={
   PreviewMark: function () {
     this.mjRunning = false;
     text = this.buffer.innerHTML;
-    text = text.replace(/&lt;/mg, '<');
-    text = text.replace(/&gt;/mg, '>');
+    //text = text.replace(/&lt;/mg, '<');
+    //text = text.replace(/&gt;/mg, '>');
     this.buffer.innerHTML = marked (text);
     this.SwapBuffers();
     
@@ -76,8 +76,8 @@ var Latexdown={
   Escape: function (html, encode) {
     return html
       .replace(!encode ? /&(?!#?\w+;)/g : /&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
+      //.replace(/</g, '&lt;')
+      //.replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
   }

@@ -8,7 +8,7 @@ Then there exists a number $$c$$ in $$(a,b)$$ such that $$f(c)=N$$.
 
 1. $$c$$ does not need to be unique.
 2. Between $$a$$ and $$b$$ means $$(a,b)$$ if $$a<b$$.
-2. close interval $$[a,b] in realline is very important. It has very good properties like compact and connected(path-connected) and continuous function $$f$$ preserves it.
+2. close interval $$[a,b]$$ in realline is very important. It has very good properties like compact and connected(path-connected) and continuous function $$f$$ preserves it.
 So $$f([a,b])$$ is compact and connected in realine and it is also close interval. If we assume $$f(a)<f(b)$$, $$N\in (f(a),f(b))\subset f([a,b])$$.
 3. IVT is very useful to prove the existence of a root of certain equations.
 

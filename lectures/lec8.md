@@ -12,14 +12,15 @@ Then there exists a number $$c$$ in $$(a,b)$$ such that $$f(c)=N$$.
 So $$f([a,b])$$ is compact and connected in realine and it is also close interval. If we assume $$f(a)<f(b)$$, $$N\in (f(a),f(b))\subset f([a,b])$$.
 3. IVT is very useful to prove the existence of a root of certain equations.
 
-#### Example 1. Show that there is a root of the equation
+#### Example 1.
+Show that there is a root of the equation
 $$$
 4x^3-6x^2+3x-2=0
 $$$
 between $$1$$ and $$2$$.
 
 How to.
-1. Let $$f(x)=4x^3-6x^2+3x-2$$ then $$f$$ is continuous on $$\doubleR$$
+1. Let $$f(x)=4x^3-6x^2+3x-2$$ then $$f$$ is continuous on $$\mathbb{R}$$
 2. A root $$c$$ of $$f(x)=0$$ means $$f(c)=0$$. Therefore $$N=0$$.
 3. Since $$c\in (1,2)$$, we need to choose $$a=1,$$b=2$$.
 4. We only need to check whether $$N=0$$  is between $$f(a)$$ and $$f(b)$$.

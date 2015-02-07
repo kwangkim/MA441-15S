@@ -22,7 +22,7 @@ between $$1$$ and $$2$$.
 How to.
 1. Let $$f(x)=4x^3-6x^2+3x-2$$ then $$f$$ is continuous on $$\mathbb{R}$$
 2. A root $$c$$ of $$f(x)=0$$ means $$f(c)=0$$. Therefore $$N=0$$.
-3. Since $$c\in (1,2)$$, we need to choose $$a=1,$$b=2$$.
+3. Since $$c\in (1,2)$$, we need to choose $$a=1$$, $$b=2$$.
 4. We only need to check whether $$N=0$$  is between $$f(a)$$ and $$f(b)$$.
 
 Eventually, we need to prove

@@ -83,6 +83,8 @@ If $f$ and $g$ are continuous at $a$ and $c$ is a constant, then the following f
 1. Any polynomial is continuous on $\doubleR=(-\infty,\infty)$
 2. Any rational function is continuous on its domain.
 
+$$\mathbb{R}$$
+
 #### Remark.
 3. Radical function is continuous on the domain.
 4. Trigonometric functions is continuous on the domain.

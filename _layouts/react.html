@@ -25,6 +25,11 @@
 <script type="text/x-mathjax-config">
 // http://docs.mathjax.org/en/latest/tex.html
 MathJax.Hub.Config({
+  Tex: {
+    Macros:{
+      RR: {'\\mathbb{R}'}
+    }
+  },
   config: ["MMLorHTML.js"],
   extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
   jax: ["input/TeX"],

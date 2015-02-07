@@ -80,11 +80,10 @@ If $f$ and $g$ are continuous at $a$ and $c$ is a constant, then the following f
 
 
 ### Corollary
-1. Any polynomial is continuous on $\RR = (-\infty,\infty)$
+1. Any polynomial is continuous on $\mathbb{R} = (-\infty,\infty)$
 2. Any rational function is continuous on its domain.
 
-$$\mathbb{R}$$
-$$\bb{R}$$
+
 
 #### Remark.
 3. Radical function is continuous on the domain.

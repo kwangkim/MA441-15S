@@ -49,21 +49,25 @@ f(x)=
 $$
 ### A function  $f$ is continuous from the right at a number $a$ if
 
-
+$$ \lim_{x\to a^+} f(x)=f(a)$$
 
 ### A function $f$ is Continuous from the left at a number $a$ if
 
+$$ \lim_{x\to a^-} f(x)=f(a)$$
 
 ### Definition
-A function $f$ is continous on an interval if it is continuos at every number in the interval. If $f$ is defined only on one side of an endpoint of the interval, we understand continous at the endpoint to mean continuous from the right or continuous from the left.
+
+1. A function $f$ is continous on an interval if it is continuos at every number in the interval. 
+
+2. If $f$ is defined only on one side of an endpoint of the interval, we understand continous at the endpoint to mean continuous from the right or continuous from the left.
 
 #### We should handle two endpoints carefully.
 
 #### Example 2. Check whether the function $f(x)=1-\sqrt{1-x}$ is continuous on the interval $[-1,1]$.
-(Interior points)  $-1<a<1$
+(Interior points)  $-1 < a < 1$
 
 
-(End points) $a=-1$ or $a=1$
+(End points) $ a=-1 $ or $ a=1 $
 
 
 ### Theorem 

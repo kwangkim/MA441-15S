@@ -37,8 +37,8 @@ var Latexdown={
   PreviewMark: function () {
     this.mjRunning = false;
     text = this.buffer.innerHTML;
-    //text = text.replace(/&lt;/mg, '<');
-    //text = text.replace(/&gt;/mg, '>');
+    text = text.replace(/&lt;/g, '<');
+    text = text.replace(/&gt;/g, '>');
     this.buffer.innerHTML = marked (text);
     this.SwapBuffers();
     

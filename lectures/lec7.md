@@ -80,7 +80,7 @@ If $f$ and $g$ are continuous at $a$ and $c$ is a constant, then the following f
 
 
 ### Corollary
-1. Any polynomial is continuous on $\doubleR=(-infty,\infty)$
+1. Any polynomial is continuous on $\doubleR=(-\infty,\infty)$
 2. Any rational function is continuous on its domain.
 
 #### Remark.

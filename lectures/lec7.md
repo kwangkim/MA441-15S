@@ -103,7 +103,7 @@ $$
 $$ \lim_{x\to \pi} \frac{\sin{x}}{2\cos{x}}$$
 
 ### Theorem
-If $f$ is **continuous at $b$ and $\lim_{x\to a} g(x)=b$, then 
+If $f$ is **continuous** at $b$ and $\lim_{x\to a} g(x)=b$, then 
 $$\lim_{x\to a}=f(\lim_{x\to a} g(x))=f(b)$$
 In other words, a evaluation of a continuous function commutes with thel limit process.
 

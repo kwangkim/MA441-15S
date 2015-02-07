@@ -23,13 +23,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
 <script src="js/updatetab.js"></script>
 <!--<script src="http://cdn.ztx.io/strapdown/strapdown.min.js"></script> -->
-<script type="text/x-mathjax-config">
+<script type="text/x-mathjax-config;executed=true">
 // http://docs.mathjax.org/en/latest/tex.html
 MathJax.Hub.Config({
   config: ["MMLorHTML.js"],
   Tex:{
     Macros: {
-      doubleR: "{ \\mathbb{R} }"
+      doubleR: '{ \\mathbb{R} }',
+      bb: ['\\mathbb{#1}',1]
     }
   },
   extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],

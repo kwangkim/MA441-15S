@@ -64,4 +64,7 @@ if this limit exists.
 Find the derivative of the function $$f(x)=x^2-8x+9$$ at the number $$a$$.
 
 
-
+### (instantaneous) rate of change
+$$$
+\lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=\lim_{x_2\to x_1}\frac{f(x_2)-f(x_1)}{x_2-x_1}
+$$$

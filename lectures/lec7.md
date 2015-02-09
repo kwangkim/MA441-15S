@@ -95,6 +95,8 @@ $$$
 $$$
 
 #### Example 4
+On what intervals is each function continuous?
+
 1. $$f(x)=x^{100}-2x^{37}+75$$
 2. $$g(x)=\frac{x^2+2x+17}{x^2-1}$$
 3. $$h(x)=\sqrt{x}+\frac{x+1}{x-1}-\frac{x+1}{x^2+1}$$

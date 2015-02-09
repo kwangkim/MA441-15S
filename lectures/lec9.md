@@ -43,13 +43,25 @@ $$$
 v(a)=\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}
 $$$
 
-### Example 3.
+#### Example 3.
 Suppose that a ball is dropped from the upper observation deck of the CN Tower, 450 m above the ground.
+Assume that the distance fallen after $$t$$ seconds is $$4.9t^2$$.
 
-The distance (in meters) fallen after seconds is
-t
+1. What is the velocity of the ball after 5 second?
 
+2. How fast the ball traveling when it hits the ground?
 
+### Derivative
+
+The derivative of a function $$f$$ at a number $$a$$, denoted by $$f'(a)$$ is
+
+$$$
+f'(a)=\lim_{h\to 0} \frac{f(a+h)-f(a)}{h}=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}
+$$$
+if this limit exists.
+
+#### Example4. 
+Find the derivative of the function $$f(x)=x^2-8x+9$$ at the number $$a$$.
 
 
 

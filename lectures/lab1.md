@@ -62,7 +62,14 @@ x^2+1 &x<1
 \end{array}
 \right.
 $$$
-
+a. As an expression,
+```Maple
+f:=piecewise(x<=1,x^2+1,x>1,(x^2-1)/(x-1));
+```
+b. As an function,
+```
+f:=x->piecewise(x<=1,x^2+1,x>1,(x^2-1)/(x-1));
+```
 #### LAB1 -PROJECT
 
 a.

@@ -103,7 +103,7 @@ To write your opinion, we may use text mode.
 
 ##### SAMPLE 2.
 a. Prove that the equation $$x^5-x^2-4=0$$ has at least one real root.
-Hint: Use evaluation with IVT. To type $$\sqrt$$ use **sqrt** command.
+Hint: Use evaluation with IVT. 
 
 b. By plotting, find the root to three decimal places.
 Hint: Reduce the domain of x to get a better approximation.
@@ -131,7 +131,8 @@ To write your opinion, we may use text mode.
 
 ##### Problem 2.
 a. Prove that the equation $$\sqrt{x-5}=\frac{1}{x+3}$$ has at least one real root.
-Hint: Use evaluation with IVT. To type $$\sqrt$$ use **sqrt** command.
+Hint: Use evaluation with IVT. 
+To type $$\sqrt$$ use **sqrt** command.
 
 b. By plotting, find the root to three decimal places.
 Hint: Reduce the domain of x to get a better approximation.

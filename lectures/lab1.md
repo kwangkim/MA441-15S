@@ -70,6 +70,17 @@ b. As an function,
 ```
 f:=x->piecewise(x<=1,x^2+1,x>1,(x^2-1)/(x-1));
 ```
+#### limit
+a. As an expression,
+```Maple
+limit(f,x=1);
+limit(f,x=infnity);
+```
+b. As an function,
+```
+limit(f(x),x=1);
+limit(f(x),x=infnity);
+```
 #### LAB1 -PROJECT
 
 a.

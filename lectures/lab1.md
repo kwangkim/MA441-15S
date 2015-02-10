@@ -25,5 +25,5 @@ b.
 c.
 
 #### How to download
-![picw300](https://cloud.githubusercontent.com/assets/10469752/6119596/ed4ba09c-b098-11e4-96c2-7fe0db0f5336.png)
+![picw300](https://cloud.githubusercontent.com/assets/10469752/6119691/28381266-b09a-11e4-9c60-3b3ecbb1871b.png)
 

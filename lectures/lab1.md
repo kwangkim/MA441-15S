@@ -41,6 +41,7 @@ a. As an expression,
 plot(f,x);
 plot(f,x=-2..3);
 plot(f,x=-2..3,y=-3..3);
+plot(f,g);
 ```
 b. As an function,
 ```

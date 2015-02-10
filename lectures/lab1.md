@@ -3,14 +3,38 @@
 #### Maple
 
 
-#### How to multiply
 
+#### function vs expression
+For $$ f(x)=x^2-2x+3$$,
 
+a. As an expression,
+```Maple
+f:=x^2-2x+3;
+```
+b. As an function,
+```
+f:=x->x^2-2x+3;
+```
 
 #### How to evaluate
-
+a. As an expression,
+```Maple
+subs(x=a,f);
+eval(f,x=a);
+```
+b. As an function,
+```
+f(a);
+```
 #### How to factor
-
+a. As an expression,
+```Maple
+factor(f);
+```
+b. As an function,
+```
+factor(f(x));
+```
 #### How to plot
 
 #### Piecewise function
@@ -25,5 +49,16 @@ b.
 c.
 
 #### How to download
+
+1. Login to [www.cuny.edu](http://www.cuny.edu)
+
+2.Click e-mall
 ![picw300](https://cloud.githubusercontent.com/assets/10469752/6119691/28381266-b09a-11e4-9c60-3b3ecbb1871b.png)
+3. Click software.
+4. Click Maplesoft.
+5. Search Maple
+6. Choose Maple 18 and order it.
+7. Write your serial code.
+
+
 

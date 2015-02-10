@@ -53,7 +53,15 @@ To multiply two functions or expressions, use *.
 ```
 (x+1)*(x-2)
 ```
-
+#### Piecewise function.
+$$$
+f(x)=\left\{
+\begin{array}{ll}
+\frac{x^2-1}{x-1} & x>1\\
+x^2+1 &x<1
+\end{array}
+\right.
+$$$
 
 #### LAB1 -PROJECT
 

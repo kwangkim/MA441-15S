@@ -134,7 +134,7 @@ Do not forget to attach your maple file.
 
 ##### Problem 1.
 a. Plot the graph of 
-$$$f(x)=\cos(x)$$
+$$$f(x)=\cos(x)$$$
 $$$g(x)=\left\{
 \begin{array}{ll}
 \frac{\sin(x)}{x} & x\neq 0\\

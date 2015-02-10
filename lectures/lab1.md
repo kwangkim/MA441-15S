@@ -91,7 +91,18 @@ limit(f(x),x=infnity);
 evalf(sqrt(5))
 ```
 ##### SAMPLE 1.
-a. Plot the graph of $$f(x)=-x^2,~g(x)=x^2*\sin(\frac{1}{x}),~h(x)=x^2$$ near $$x=0$$. Using Squeeze theorem, find
+a. Plot the graph of 
+$$$f(x)=-x^2$$
+$$$g(x)=\left\{
+\begin{array}{ll}
+x^2*\sin(\frac{1}{x}) & x\neq 0\\
+0 & x=0
+\end{array}
+\right.
+$$$
+$$$h(x)=1$$$
+on $$[-0.1,0.1]$$.
+Using Squeeze theorem, find
 $$$
 \lim_{x\to 0} g(x)
 $$$
@@ -108,7 +119,7 @@ Hint: Use evaluation with IVT.
 b. By plotting, find the root to three decimal places.
 Hint: Reduce the domain of x to get a better approximation.
 
-#### LAB1 -Project1 (**Due: Feb 15, 10AM**)
+#### LAB1 -Project1 (**Due: Feb 21, 10 AM**)
 
 ##### How to sumbit
 
@@ -119,7 +130,18 @@ Do not forget to attach your maple file.
 ### If you post it to team or entire class, you will get zero score.
 
 ##### Problem 1.
-a. Plot the graph of $$f(x)=-x^2,~g(x)=x^2*\sin(\frac{1}{x}),~h(x)=x^2$$ near $$x=0$$. Using Squeeze theorem, find
+a. Plot the graph of 
+$$$f(x)=\cos(x)$$
+$$$g(x)=\left\{
+\begin{array}{ll}
+\frac{\sin(x)}{x} & x\neq 0\\
+1 & x=0
+\end{array}
+\right.
+$$$
+$$$h(x)=1$$$
+on $$[-2,2]$$.
+Using Squeeze theorem, find
 $$$
 \lim_{x\to 0} g(x)
 $$$

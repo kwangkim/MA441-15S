@@ -25,4 +25,5 @@ b.
 c.
 
 #### How to download
-![picw300](https://www.dropbox.com/s/9xqy4d6gf1weukc/Screenshot%202015-02-09%2020.14.21.png?dl=0)
+![picw300](https://cloud.githubusercontent.com/assets/10469752/6119596/ed4ba09c-b098-11e4-96c2-7fe0db0f5336.png)
+

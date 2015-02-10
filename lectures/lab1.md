@@ -9,11 +9,11 @@ For $$ f(x)=x^2-2x+3$$,
 
 a. As an expression,
 ```Maple
-f:=x^2-2x+3;
+f:=x^2-2x-3;
 ```
 b. As an function,
 ```
-f:=x->x^2-2x+3;
+f:=x->x^2-2x-3;
 ```
 
 #### How to evaluate
@@ -36,8 +36,24 @@ b. As an function,
 factor(f(x));
 ```
 #### How to plot
+a. As an expression,
+```Maple
+plot(f,x);
+plot(f,x=-2..3);
+plot(f,x=-2..3,y=-3..3);
+```
+b. As an function,
+```
+plot(f);
+plot(f,-2..3);
+plot(f,-2..3,-3..3);
+```
+#### warning
+To multiply two functions or expressions, use *.
+```
+(x+1)*(x-2)
+```
 
-#### Piecewise function
 
 #### LAB1 -PROJECT
 

@@ -92,14 +92,17 @@ evalf(sqrt(5))
 ```
 ##### SAMPLE 1.
 a. Plot the graph of 
-$$$f(x)=-x^2$$
-$$$g(x)=\left\{
+$$$f(x)=-x^2$$$
+
+$$$g(x)=
+\left\{
 \begin{array}{ll}
 x^2*\sin(\frac{1}{x}) & x\neq 0\\
 0 & x=0
 \end{array}
 \right.
 $$$
+
 $$$h(x)=1$$$
 on $$[-0.1,0.1]$$.
 Using Squeeze theorem, find

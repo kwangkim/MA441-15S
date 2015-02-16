@@ -16,4 +16,13 @@ $$$
 $$$
 
 #### Example 2.
-Let $$ y=\frac{x^2+x-2}{x^3+6}$$. Find $$y'$$
+Let $$ y=\frac{x^2+x-2}{x^3+6}$$. Find $$y'$$.
+
+#### Example 3.
+Let $$ y=\sqrt{x}=x^{\frac{1}{2}}$$. Find $$y'$$.
+
+
+
+#### Example 4.
+Let $$ y=\frac{3x^2+2\sqrt{x}}{x}$$. Find $$y'$$.
+

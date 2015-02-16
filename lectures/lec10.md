@@ -16,6 +16,8 @@ b. Illustrate by comparing the graphs of $$f$$ and $$f'$$.
 
 c. Find the domain of $$f'$$.
 
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/690893/width/763/height/667/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="763px" height="667px" style="border:0px;"> </iframe>
+
 #### Example 2.
 
 a. If $$f(x)=\sqrt{x}$$, find a formula for $$f'(x)$$.

@@ -54,11 +54,6 @@ $$$
 $$$
 
 
-5.  Product rule
-
-$$$
-\frac{d}{dx} \left[ f(x)\cdot g(x) \right] =\frac{d}{dx} [f(x)]\cdot g(x)+ f(x)\cdot \frac{d}{dx} [g(x)]
-$$$
 
 
 

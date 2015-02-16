@@ -24,5 +24,18 @@ Let $$ y=\sqrt{x}=x^{\frac{1}{2}}$$. Find $$y'$$.
 
 
 #### Example 4.
-Let $$ y=\frac{3x^2+2\sqrt{x}}{x}$$. Find $$y'$$.
+a. Let $$ y=\frac{3x^2+2\sqrt{x}}{x}$$. Find $$y'$$.
+
+b. Let $$ y=\frac{1}{\sqrt[3]{x^2}$$. Find $$y'$$.
+
+c.  Let $$ f(x)=\sqrt{x}(a+bx)$$. Find $$f'(x)$$.
+
+#### Example 5.
+
+Find equations of the tangent line and normal(vertical) line to the curve
+$$$
+y=\frac{\sqrt{x}}{1+x^2}
+$$$
+at the point $$(1,\frac{1}{2})$$
+
 

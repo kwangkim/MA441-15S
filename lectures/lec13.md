@@ -26,7 +26,7 @@ Let $$ y=\sqrt{x}=x^{\frac{1}{2}}$$. Find $$y'$$.
 #### Example 4.
 a. Let $$ y=\frac{3x^2+2\sqrt{x}}{x}$$. Find $$y'$$.
 
-b. Let $$ y=\frac{1}{\sqrt[3]{x^2}$$. Find $$y'$$.
+b. Let $$ y=\frac{1}{\sqrt[3]{x^2}}$$. Find $$y'$$.
 
 c.  Let $$ f(x)=\sqrt{x}(a+bx)$$. Find $$f'(x)$$.
 

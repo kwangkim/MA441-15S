@@ -58,6 +58,12 @@ The converse of above theorem is false since $$f(x)=|x| $$ is not differentiable
 
 1. A discontinuity by above theorem
 
+[picw200](https://cloud.githubusercontent.com/assets/10469752/6217839/2eddc326-b5e6-11e4-97db-17ef6248303a.png)
+
 2. A corner: No unique tangent line.
 
+[picw200](https://cloud.githubusercontent.com/assets/10469752/6217867/6e695906-b5e6-11e4-9b25-90a1f336d4b4.png)
+
 3. A vertical tangent line
+
+[picw200](https://cloud.githubusercontent.com/assets/10469752/6217881/8b6667ba-b5e6-11e4-9f20-097790b10a67.png)

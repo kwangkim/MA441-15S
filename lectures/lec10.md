@@ -6,7 +6,7 @@ f'(x)=y=\frac{dy}{dx}=Df(x)=D_x f(x)=\lim_{h\to 0} \frac{f(x+h)-f(x)}{h}
 $$$
 We can regard $$f'$$ as a new function, called the derivative of $$f$$.
 
-#### Remark. $$D$$ $$\frac{d}{dx}$$ is called differentiation operators.
+#### Remark. $$D$$ and $$\frac{d}{dx}$$ are called differentiation operators.
 
 #### Example 1.
 

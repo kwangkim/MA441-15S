@@ -38,4 +38,5 @@ y=\frac{\sqrt{x}}{1+x^2}
 $$$
 at the point $$(1,\frac{1}{2})$$
 
-
+#### Example 6.
+At what points on the hyperbola $$xy=12$$ is the tangent line parallel to the line $$3x+y=0$$?

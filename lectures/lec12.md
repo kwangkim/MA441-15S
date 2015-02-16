@@ -12,9 +12,12 @@ $$$
 \frac{d}{dx} (x)=1
 $$$
 
+For an positive integer $$n$$, 
 $$$
 \frac{d}{dx} (x^n)=n\cdot x^{n-1}
 $$$
+
+#### Remark Power function rule is true for all real $$n$$.
 
 3. Constant Multiple Rule
 

@@ -43,4 +43,6 @@ at the point $$(1,\frac{1}{2})$$
 #### Example 6.
 At what points on the hyperbola $$xy=12$$ is the tangent line parallel to the line $$3x+y=0$$?
 
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/691393/width/763/height/550/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="763px" height="550px" style="border:0px;"> </iframe>
+
 

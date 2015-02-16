@@ -36,7 +36,7 @@ Let $$s=f(t)$$ is the displacement from the origin at time $$t$$.
 $$$
 average~velocity=\frac{displacement}{time}=\frac{f(a+h)-f(a)}{h}
 $$$
-It is the same to the slope of the secant line $$\overbar{PQ}$$. Therefore we can define
+It is the same to the slope of the secant line $$\overline{PQ}$$. Therefore we can define
 the instantaneous velicity $$v(a)$$ at time $$t=a$$ to be the limit of the average 
 velocities.
 $$$

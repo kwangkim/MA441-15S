@@ -4,7 +4,9 @@
 $$$
 f'(x)=y=\frac{dy}{dx}=Df(x)=D_x f(x)=\lim_{h\to 0} \frac{f(x+h)-f(x)}{h}
 $$$
-We cab regard $$f'$$ as a new function, called the derivative of $$f$$.
+We can regard $$f'$$ as a new function, called the derivative of $$f$$.
+
+#### Remark. $$D$$ $$\frac{d}{dx}$$ is called differentiation operators.
 
 #### Example 1.
 
@@ -30,4 +32,30 @@ b. Illustrate by comparing the graphs of $$f$$ and $$f'$$.
 
 c. Find the domain of $$f'$$.
 
+#### Differentiable at $$a$$
 
+> A function $$f$$ is differentiable at $$a$$ if $$f'(a)$$ exists. It is differentiable on an open interval $$(a,b)$$ if it is differentiable at every number in the interval.
+
+#### Example 4.
+
+Where us function $$f(x)=|x|$$  differentiable?
+
+Hint: Consider three cases, $$x>0,~x=0,~x<0$$.
+
+#### Theorem
+If $$f$$ is differentiable at $$x=a $$, $$f$$ is continuous at $$x=a $$.
+
+1. $$\lim_{x\to a} \left[ f(x)-f(a) \right]=0$$
+
+2. Use $$f(x)=f(a)+f(x)-(a) $$ to prove $$\lim_{x\to a} f(x)=f(a) $$ 
+
+#### (Converse ?)
+The converse of above theorem is false since $$f(x)=|x| $$ is not differentiable at 0.
+
+#### Fail to be differentiable!
+
+1. A discontinuity by above theorem
+
+2. A corner: No unique tangent line.
+
+3. A vertical tangent line

@@ -50,10 +50,15 @@ Find the points on the curve $$y=x^4-6x^2+4$$ where the tangent line is horizont
 #### Remark
 
 $$$
-(fg)'=f'g+fg'
+(fg)'\neq f'g'
 $$$
 
 
+5.  Product rule
+
+$$$
+\frac{d}{dx} \left[ f(x)\cdot g(x) \right] =\frac{d}{dx} [f(x)]\cdot g(x)+ f(x)\cdot \frac{d}{dx} [g(x)]
+$$$
 
 
 

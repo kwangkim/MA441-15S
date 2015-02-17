@@ -103,7 +103,7 @@ x^2*\sin(\frac{1}{x}) & x\neq 0\\
 \right.
 $$$
 
-$$$h(x)=1$$$
+$$$h(x)=x^2$$$
 on $$[-0.1,0.1]$$.
 Using Squeeze theorem, find
 $$$

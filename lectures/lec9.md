@@ -12,7 +12,7 @@ $$
 
 #### Motivation.
 To find the tangent line to curve $$C:y=f(x)$$ at the point $$P(a,f(a))$$, we use the secant lines $$\overline{PQ}$$ 
-by choooing $Q(x,f(x))$ near $P$ ($$x=\neq a$$).
+by choooing $$Q(x,f(x))$$ near $$P$$ ($$x\neq a$$).
 The slope of secant line $$\overline{PQ}$$ is
 
 $$$

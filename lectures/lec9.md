@@ -18,7 +18,7 @@ The slope of secant line $$\overline{PQ}$$ is
 $$$
 m_{PQ}= \frac{f(x)-f(a)}{x-a}
 $$$
-If $$m_{PQ}$$ is approaching a unique number $$m$$ as $$Q$$ approach $$P$$ along the curve $$C$$, we define $m$ as the slope of tangent line.
+If $$m_{PQ}$$ is approaching a unique number $$m$$ as $$Q$$ approach $$P$$ along the curve $$C$$, we define $$m$$ as the slope of tangent line.
 
 #### Tangent Line
 Let $$C$$ is a curve given by $$y=f(x)$$. Then the slope of the tangent line to $$C$$ at the point $$(a,f(a))$$ is 

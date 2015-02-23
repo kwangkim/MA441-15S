@@ -18,7 +18,7 @@ we need to find $$\lim_{h\to 0}\frac{\cos(h)-1}{h}$$ and $$\lim_{h\to 0}\frac{\s
 ![picw300](https://cloud.githubusercontent.com/assets/10469752/6321165/aafec812-bac1-11e4-9215-e89d66c67712.png)
 
 Assume $$\theta>0$$
-$$$Area(\triangle BOA) <Area( Sector(BOA)< Area(\triangle DOA)$$$
+$$$Area(\triangle BOA) <Area( Sector(BOA))< Area(\triangle DOA)$$$
 implies 
 $$$\sin(\theta)<\theta<\tan(\theta)$$$
 So
@@ -34,5 +34,12 @@ $$$
 $$$
 Therefore
 $$$
-\lim_{\theta\to 0^+}\frac{\sin(\theta)}{\theta}=1
+\lim_{\theta\to 0}\frac{\sin(\theta)}{\theta}=1
 $$$
+Here we assume the $$Area(Unit Circle)=\pi$$. 
+#### $$\lim_{h\to 0}\frac{\cos(h)-1}{h}$$
+Since for $$-\pi/2 <h<\pi/2$$ ,$$\frac{cos(h)+1}\frac{cos(h)+1}=1$$ and $$\cos^2(h)-1=-\sin^2(h)
+$$$
+\lim_{h\to 0}\frac{\cos(h)-1}{h}=lim_{h\to 0}\frac{(\cos(h)-1)(\cos(h)+1)}{h(\cos(h)+1)}=lim_{h\to 0}\frac{-\sin(h)\cdot\sin(h)}{h(\cos(h)+1)}=lim_{h\to 0}\frac{\sin(h)}{h}\cdot lim_{h\to 0}\frac{-\sin(h)}{(\cos(h)+1)}=1\cdot (\frac{-0}{2})=0
+$$$
+

@@ -15,7 +15,7 @@ we need to find $$\lim_{h\to 0}\frac{\cos(h)-1}{h}$$ and $$\lim_{h\to 0}\frac{\s
 
 #### $$\lim_{\theta\to 0}\frac{\sin(\theta)}{\theta}$$
 
-[picw100](https://cloud.githubusercontent.com/assets/10469752/6321165/aafec812-bac1-11e4-9215-e89d66c67712.png)
+![picw100](https://cloud.githubusercontent.com/assets/10469752/6321165/aafec812-bac1-11e4-9215-e89d66c67712.png)
 Assume $$\theta>0$$
 $$$Area(\triangle BOA) <Area( Sector(BOA)< Area(\triangle DOA)$$$
 implies 

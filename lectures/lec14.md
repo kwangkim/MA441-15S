@@ -42,4 +42,21 @@ Since for $$-\pi/2 <h<\pi/2$$ ,$$\frac{cos(h)+1}\frac{cos(h)+1}=1$$ and $$\cos^2
 $$$
 \lim_{h\to 0}\frac{\cos(h)-1}{h}=lim_{h\to 0}\frac{(\cos(h)-1)(\cos(h)+1)}{h(\cos(h)+1)}=lim_{h\to 0}\frac{-\sin(h)\cdot\sin(h)}{h(\cos(h)+1)}=lim_{h\to 0}\frac{\sin(h)}{h}\cdot lim_{h\to 0}\frac{-\sin(h)}{(\cos(h)+1)}=1\cdot (\frac{-0}{2})=0
 $$$
+#### $$f'(x)=(\sin(x))\cdot0+(\cos(x))\cdot 1= cos(x)$$
+Similarly,
+$$$
+\frac{d}{dx}(\cos(x))=-\sin(x),~\frac{d}{dx}(\tan(x))=-\sec^2(x)
+$$$
+$$$
+\frac{d}{dx}(\csc(x))=-\csc(x)\cot(x),~\frac{d}{dx}(\sec(x))=-\sec(x)\tan(x),~\frac{d}{dx}(\cot(x))=-csc^2(x)
+$$$
+####  Find $$y'$$.
+1. $$y=x^2\cdot\sin(x)$$
+2. $$y=\frac{\sec(x)}{1+\tan(x)$$
+#### Find limits.
+1. $$\lim_{x\to 0} \frac{\sin(7x)}{4x}$$
+2. $$lim_{x\to 0} x\cdot \cot(x)$$ 
+
+
+
 

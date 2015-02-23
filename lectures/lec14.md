@@ -20,7 +20,7 @@ we need to find $$\lim_{h\to 0}\frac{\cos(h)-1}{h}$$ and $$\lim_{h\to 0}\frac{\s
 
 Assume $$\theta>0$$.
 
-$$$Area(\triangle BOA) <Area( Sector(BOA))< Area(\triangle DOA)$$$$$
+$$$Area(\triangle BOA) <Area( Sector(BOA))< Area(\triangle DOA)$$$
 implies 
 $$$\sin(\theta)<\theta<\tan(\theta)$$$
 So

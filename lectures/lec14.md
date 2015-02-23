@@ -38,7 +38,7 @@ $$$
 $$$
 Here we assume the $$Area(Unit Circle)=\pi$$. 
 #### $$\lim_{h\to 0}\frac{\cos(h)-1}{h}$$
-Since for $$-\pi/2 <h<\pi/2$$ ,$$\frac{cos(h)+1}{cos(h)+1}=1$$ and $$\cos^2(h)-1=-\sin^2(h)
+Since for $$-\pi/2 <h<\pi/2$$ ,$$\frac{cos(h)+1}{cos(h)+1}=1$$ and $$\cos^2(h)-1=-\sin^2(h)$$,
 $$$
 \lim_{h\to 0}\frac{\cos(h)-1}{h}=lim_{h\to 0}\frac{(\cos(h)-1)(\cos(h)+1)}{h(\cos(h)+1)}=lim_{h\to 0}\frac{-\sin(h)\cdot\sin(h)}{h(\cos(h)+1)}=lim_{h\to 0}\frac{\sin(h)}{h}\cdot lim_{h\to 0}\frac{-\sin(h)}{(\cos(h)+1)}=1\cdot (\frac{-0}{2})=0
 $$$

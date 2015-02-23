@@ -5,7 +5,7 @@
 From $$\sin(x+h)=\sin(x)\cos(h)+\cos(x)\sin(h)$$,
 $$$
 \begin{eqnarray}
-f'(x)&=&\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}=\lim_{h\to 0}\frac{\sin(x+h)=\sin(x)\cos(h)+\cos(x)\sin(h)-\sin(x)}{h}\\
+f'(x)&=&\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}=\lim_{h\to 0}\frac{\sin(x)\cos(h)+\cos(x)\sin(h)-\sin(x)}{h}\\
 &=&\lim_{h\to 0}\left[\frac{\sin(x)\cos(h)-\sin(x)}{h}+\frac{\cos(x)\sin(h)}{h} \right]\\
 &=&\lim_{h\to 0}\left[\sin(x)\cdot \frac{\cos(h)-1}{h}+\cos(x)\cdot\frac{\sin(h)}{h} \right]
 \end{eqnarray}

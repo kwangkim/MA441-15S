@@ -21,14 +21,20 @@ we need to find $$\lim_{h\to 0}\frac{\cos(h)-1}{h}$$ and $$\lim_{h\to 0}\frac{\s
 Assume $$\theta>0$$.
 
 $$$Area(\triangle BOA) <Area( Sector(BOA))< Area(\triangle DOA)$$$
+
 implies 
+
 $$$\sin(\theta)<\theta<\tan(\theta)$$$
+
 So
 $$$  \cos(\theta)<\frac{\sin(\theta)}{\theta}<1$$$
+
 Since $$\lim_{\theta\to 0} \cos(\theta)=1$$, by squeeze theorem,
+
 $$$
 \lim_{\theta\to 0^+}\frac{\sin(\theta)}{\theta}=1
 $$$
+
 By using $$\theta'=-\theta$$ and $$\sin{-\theta}=-\sin{\theta}$$
 $$$
 1=\lim_{\theta\to 0^+}\frac{\sin(\theta)}{\theta}=\lim_{\theta'\to 0^-}\frac{\sin(-\theta')}{-\theta}=\lim_{\theta'\to 0^-}\frac{-\sin(\theta')}{-\theta}

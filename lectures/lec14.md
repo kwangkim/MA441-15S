@@ -17,10 +17,11 @@ we need to find $$\lim_{h\to 0}\frac{\cos(h)-1}{h}$$ and $$\lim_{h\to 0}\frac{\s
 
 ![picw300](https://cloud.githubusercontent.com/assets/10469752/6321165/aafec812-bac1-11e4-9215-e89d66c67712.png)
 
-Assume $$\theta>0$$
+Assume $$\theta>0$$.
+
 $$$Area(\triangle BOA) <Area( Sector(BOA))< Area(\triangle DOA)$$$$$
 implies 
-$$$\sin(\theta)<\theta<\tan(\theta)$$$$$
+$$$\sin(\theta)<\theta<\tan(\theta)$$$
 So
 $$$  \cos(\theta)<\frac{\sin(\theta)}{\theta}<1$$$
 Since $$\lim_{\theta\to 0} \cos(\theta)=1$$, by squeeze theorem,

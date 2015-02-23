@@ -1,5 +1,5 @@
 ### Lec14 Derivative of Trigonometric Function.
-#### Assume $$$x$$$ is always radian fo Trigonometric functions.
+#### Assume $$x$$ is always radian fo Trigonometric functions.
 
 #### Derivative of $$f(x)=\sin{(x)}$$
 From $$\sin(x+h)=\sin(x)\cos(h)+\cos(x)\sin(h)$$,

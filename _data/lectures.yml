@@ -32,13 +32,13 @@
 - date: "2015-2-19"
   lecs:
     - url : lec12.md
-    - url : lec13.md
 - date: "2015-2-22"
   lecs:
-    - url : lec14.md
+    - url : lec13.md
 - date: "2015-2-23"
   lecs:
-    - url : lec15.md
+    - url : lec14.md
 - date: "2015-2-26"
   lecs:
+    - url : lec15.md
     - url : lec16.md

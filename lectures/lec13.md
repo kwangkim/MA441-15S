@@ -45,4 +45,14 @@ At what points on the hyperbola $$xy=12$$ is the tangent line parallel to the li
 
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/691401/width/763/height/550/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="763px" height="550px" style="border:0px;"> </iframe>
 
+#### #### Differentiable function.
 
+Find the value of $a$ and $b$ that make $f$ differentiable everywhere if
+$$
+f(x)=\left\{
+\begin{array}{ll}
+x^2-b, & x\leq 1\\
+ax+1, & x> 1
+\end{array}
+\right.
+$$

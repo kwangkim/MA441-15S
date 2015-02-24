@@ -36,3 +36,9 @@
 - date: "2015-2-22"
   lecs:
     - url : lec14.md
+- date: "2015-2-23"
+  lecs:
+    - url : lec15.md
+- date: "2015-2-26"
+  lecs:
+    - url : lec16.md

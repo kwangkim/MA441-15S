@@ -48,11 +48,11 @@ At what points on the hyperbola $$xy=12$$ is the tangent line parallel to the li
 #### #### Differentiable function.
 
 Find the value of $a$ and $b$ that make $f$ differentiable everywhere if
-$$
+$$$
 f(x)=\left\{
 \begin{array}{ll}
 x^2-b, & x\leq 1\\
 ax+1, & x> 1
 \end{array}
 \right.
-$$
+$$$

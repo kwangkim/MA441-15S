@@ -26,7 +26,7 @@ a. $$y=\sin(x^2)$$
 b.$$y=\sin^2(x)$$
 
 
-#### EX3. Differentiate $$y=(x^3-1)^100$$.
+#### EX3. Differentiate $$y=(x^3-1)^{100}$$.
 
 
 #### EX4. Differentiate $$y=(2x+1)^5\cdot(x^3-x+1)^4$$

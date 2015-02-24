@@ -4,7 +4,7 @@
 
 Find the slope of tangent line to the circle $$x^2+y^2=25$$ at the point $$(3,4)$$.
 
-$$ y^2=25-x^2$$ implies $$y=\pm \sqrt{25-x^2}$$. Since $4>0$. Choose
+$$ y^2=25-x^2$$ implies $$y=\pm \sqrt{25-x^2}$$. Since $$4>0$$. Choose
 $$y=\sqrt{25-x^2}$$.
 From the chain rule, by letting $$u=25-x^2$$,
 $$$

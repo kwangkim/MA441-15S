@@ -1,6 +1,6 @@
 ### LEC 15 Chain rule
 
-Let $$F(x)=f(g(x))$$. If $g$ is differentiable at $x$ and $f$ is differentiable at $g(x)$, then $F(x)$ is also differentiable at x and
+Let $$F(x)=f(g(x))$$. If $$g$$ is differentiable at $$x$$ and $$f$$ is differentiable at $$g(x)$$, then $$F(x)$$ is also differentiable at $$x$$ and
 
 
 $$$
@@ -13,7 +13,8 @@ $$$
 
 #### EX1,  Find $$F'(x)$$ if $$F(x)=\sqrt{x^2+1}$$
 
-Let $$u=x^2+1$$ and $$y=\sqrt{u}$$. From $$\frac{du}{dx}=2x$$ and $$\frac{dy}{du}=\frac{1}{2}u^{-\frac{1}{2}}=\frac{1}{2\sqrt{u}}
+Let $$u=x^2+1$$ and $$y=\sqrt{u}$$. From $$\frac{du}{dx}=2x$$ and $$\frac{dy}{du}=\frac{1}{2}u^{-\frac{1}{2}}=\frac{1}{2\sqrt{u}}$$
+
 $$$
 F'(x)=\frac{dy}{du}\cdot \frac{du}{dx}=\frac{1}{2\sqrt{u}}\cdot 2x=\frac{2x}{2\sqrt{x^2+1}}=x/\sqrt{x^2+1}
 $$$

@@ -38,4 +38,4 @@ b.$$y=\sin^2(x)$$
 #### EX6.  Differentiate $$y=\sin(x)\cdot \cos(x^2)$$
 
 
-#### EX7. If $$h(x)=\sqrt{4+3f(x)}$$, where $$f(1)=7,~f'(1)=4%%, find $$h'(1)$$.
+#### EX7. If $$h(x)=\sqrt{4+3f(x)}$$, where $$f(1)=7,~f'(1)=4$$, find $$h'(1)$$.

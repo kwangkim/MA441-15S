@@ -10,7 +10,7 @@ From the chain rule, by letting $$u=25-x^2$$,
 $$$
 \frac{dy}{dx}=\frac{dy}{dy}\cdot \frac{du}{dx}=(\frac{1}{2\sqrt{u}})\cdot(-2x)=\frac{-x}{\sqrt{25-x^2}}
 $$$
-Therefore $$y'=\frac{-1(3)}{\sqrt{25-(3)^2}=-\frac{3}{4}$$.
+Therefore $$y'=\frac{-1(3)}{\sqrt{25-(3)^2}}=-\frac{3}{4}$$.
 
 It takes too much time since the original equation is given by an implicit form.
 There is an alternative way which is called the method of **implicit differentiation**.

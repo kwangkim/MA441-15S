@@ -47,7 +47,7 @@ At what points on the hyperbola $$xy=12$$ is the tangent line parallel to the li
 
 #### #### Differentiable function.
 
-Find the value of $a$ and $b$ that make $f$ differentiable everywhere if
+Find the value of $$a$$ and $$b$$ that make $$f$$ differentiable everywhere if
 $$$
 f(x)=\left\{
 \begin{array}{ll}

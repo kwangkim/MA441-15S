@@ -16,7 +16,7 @@ It takes too much time since the original equation is given by an implicit form.
 There is an alternative way which is called the method of **implicit differentiation**.
 
 Let $$y'=\frac{dy}{dx},~x'=\frac{dx}{dx}=1$$.
-
+<br>
 a. Differentiate both sides of the equation $$x^2+y^2=25$$
 
 $$$

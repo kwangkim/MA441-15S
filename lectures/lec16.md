@@ -45,7 +45,7 @@ b. Find the tangent to the folium of Descartes $$x^3+y^3=6xy$$ at the point $$(3
 
 #### EX3. Find $$y'$$ if $$x^4+y^4=16$$
 
-#### TRY. Find $$y''$$ if $$x^4+y^4=16$$
+#### EX4. Find $$y''$$ if $$x^4+y^4=16$$
 
 
 

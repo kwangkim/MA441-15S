@@ -13,7 +13,11 @@ $$$
 Therefore $$y'=\frac{-1(3)}{\sqrt{25-(3)^2}}=-\frac{3}{4}$$.
 It takes too much time to find an explicit form from the implicit form.
 There is an alternative way which is called the method of **implicit differentiation**.
-Here okey assumption is $$y=f(x)$$ is a function of  *one variable* $$x$$.
+
+#### implicit differentiation
+
+The key assumption is $$y=f(x)$$ is a function of  *one variable* $$x$$.
+
 For simplicity, let $$y'=\frac{dy}{dx},~x'=\frac{dx}{dx}=1$$.
 <br>
 a. Differentiate both sides of the equation $$x^2+y^2=25$$ with respect to $$x$$.
@@ -21,7 +25,8 @@ a. Differentiate both sides of the equation $$x^2+y^2=25$$ with respect to $$x$$
 $$$
 \frac{d}{dx}(x^2+y^2)=\frac{d}{dx}(25)
 $$$
-b. Use the chain rule,
+b. Use the chain rule.
+
 $$$
 2x\cdot x'+2y\cdot y'=0
 $$$

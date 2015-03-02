@@ -1,5 +1,7 @@
 ### Lec 16 Implicit Differentiation.
 
+[MAPLE FILE](https://piazza.com/class_profile/get_resource/i4w7v2qzpw43ey/i6r5yh2z9z25n5)
+
 #### Why?
 
 Find the slope of tangent line to the circle $$x^2+y^2=25$$ at the point $$(3,4)$$.

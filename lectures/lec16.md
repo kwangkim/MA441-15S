@@ -43,7 +43,9 @@ a. Find $$y'$$ if $$x^3+y^3=6xy$$
 
 b. Find the tangent to the folium of Descartes $$x^3+y^3=6xy$$ at the point $$(3,3)$$.
 
-[SAGE](https://sagecell.sagemath.org/?z=eJxL06jQqdRUsFWoiDPWrowz1jXTqtCq5OXKzC3IyUzOLIkvyMkv0UjTUdDQNdQxUdCEMBRMNDV5uQAMzQ-M&lang=sage)
+[SAGE1](https://sagecell.sagemath.org/?z=eJxL06jQqdRUsFWoiDPWrowz1jXTqtCq5OXKzC3IyUzOLIkvyMkv0UjTUdDQNdQxUdCEMBRMNDV5uQAMzQ-M&lang=sage)
+
+[SAGE2](https://sagecell.sagemath.org/?z=eJyrtE0rzUsuyczP01CvVNep0OTlKknNLbBNyUxL06iIM9aujDPWNdOq0KoEyhTn55SlKmiAFOiAFVRqAkUB43wUwA==&lang=sage)
 
 ![picw300](https://cloud.githubusercontent.com/assets/10469752/6434154/7be20758-c050-11e4-8dda-db678cc48203.png)
 

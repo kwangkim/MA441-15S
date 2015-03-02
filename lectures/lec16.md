@@ -40,12 +40,21 @@ Therefore $$slope=y'=-\frac{3}{4}$$.
 #### Ex1
 a. Find $$y'$$ if $$x^3+y^3=6xy$$
 
+
 b. Find the tangent to the folium of Descartes $$x^3+y^3=6xy$$ at the point $$(3,3)$$.
+
+[SAGE](https://sagecell.sagemath.org/?z=eJxL06jQqdRUsFWoiDPWrowz1jXTqtCq5OXKzC3IyUzOLIkvyMkv0UjTUdDQNdQxUdCEMBRMNDV5uQAMzQ-M&lang=sage)
+
+![picw300](https://cloud.githubusercontent.com/assets/10469752/6434154/7be20758-c050-11e4-8dda-db678cc48203.png)
+
 
 #### Ex2. Find $$y'$$ if $$\sin(x+y)=y^2\cdot \cos(x)$$.
 
+![picw300](https://cloud.githubusercontent.com/assets/10469752/6434173/f8649c32-c050-11e4-807a-5819fbbb754b.png)
 
 #### EX3. Find $$y'$$ if $$x^4+y^4=16$$
+
+![picw300](https://cloud.githubusercontent.com/assets/10469752/6434177/06435208-c051-11e4-95b0-c4564745c819.png)
 
 #### EX4. Find $$y''$$ if $$x^4+y^4=16$$
 

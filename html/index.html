@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="/thomas/style.css" />
+	<title>LaTeX to SVG</title>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+	<meta name="description" content="" />
+	<meta name="keywords" content="Thomas Lochmatter" />
+</head>
+<body>
+
+<div class="top">
+	<div>
+		<a href="/thomas/" style="color:#eeeeee; text-decoration:none; font-weight:bold">Thomas Lochmatter</a> <span style="font-weight:bold; padding:0 5px">·</span>
+		<a href="/scatter/" style="color:#eeeeee; text-decoration:none; font-weight:bold">Scatter</a> <span style="font-weight:bold; padding:0 5px">·</span>
+		<a href="/perl/storableedit/" style="color:#eeeeee; text-decoration:none; font-weight:bold">Perl StorableEdit</a> <span style="font-weight:bold; padding:0 5px">·</span>
+		<a href="/gps-bearing/" style="color:#eeeeee; text-decoration:none; font-weight:bold">GPS bearing</a> <span style="font-weight:bold; padding:0 5px">·</span>
+		<a href="/libmip/" style="color:#eeeeee; text-decoration:none; font-weight:bold">libMIP</a> 
+	</div>
+</div>
+
+<div class="title">
+	<div>
+		<h1>LaTeX to SVG</h1>
+		<div style="font-size:24px">Convert LaTeX equations to SVG using <a href="http://mathjax.org">MathJax</a></div>
+	</div>
+</div>
+
+<div class="content"><div><div>
+	<h2>Equation</h2>
+	<p>Write your <a target="_blank" href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX equation</a> here:</p>
+	<div class="textarea"><textarea id="input" style="height:100px">x = \sin{\pi}</textarea></div>
+	<div style="margin:10px 20px 10px 0; float:left"><span style="padding:4px 12px; background-color:#cc0000; color:white; cursor:pointer; border-radius:3px" onclick="render()">Render equation</span></div>
+	<div style="margin:10px 0; float:left"><span style="font-style:italic; color:#cc0000">Note that this currently works in Firefox and Chrome only.</span></div>
+	<div style="clear:both"></div>
+	<h2>Rendered equation</h2>
+	<p>The following equation was rendered using MathJax (in SVG rendering mode) within your web browser:</p>
+	<div style="margin:6px 0; background-color:#eeeeee; border-radius:3px; padding:10px 10px">$$x = \sin{\pi}$$</div>
+	<h2>Generated SVG</h2>
+	<p>This is the SVG image extracted from the MathJax equation. It should look the same as the equation above. In some browsers, you can use the download button to save the image as *.svg file.</p>
+	<div style="margin:6px 0; background-color:#eeeeee; border-radius:3px; padding:10px 10px" id="plainSVG"></div>
+	<div id="afterPlainSVG"></div>
+	<h2>SVG source code</h2>
+	<p>If downloading does not work, copy-paste the text below into your favorite text editor, and save it as *.svg file.</p>
+	<div class="textarea"><textarea id="output" style="height:200px"></textarea></div>
+	<h2>Notes and hints</h2>
+	<ul>
+		<li>You can open/import the *.svg file in <a href="">Inkscape</a> for further editing. Since it's huge, you may want to scale it to 1.5% of its size. Inkscape also allows you to export the equation as PDF document or PNG image.</li>
+		<li>In all modern browsers, you can insert SVG source code directly into an HTML document.</li>
+		<li>Rendering is performed within your browser. If you cache this page, you don't need an internet connection to render equations.</li>
+		<li>If you are using a Mac, you may also like <a href="http://pierre.chachatelier.fr/latexit/latexit-home.php?lang=en">LaTeXiT</a> by Pierre Chatelier.</li>
+	</ul>
+
+	<script type="text/javascript">
+		var input = document.getElementById('input');
+		var plainSVG = document.getElementById('plainSVG');
+		var afterPlainSVG = document.getElementById('afterPlainSVG');
+		var output = document.getElementById('output');
+		var equation = null;
+		
+		MathJax.Hub.queue.Push(function () {
+			equation = MathJax.Hub.getAllJax("MathOutput")[0];
+			render();
+		});
+
+		function render() {
+			var text = input.value;
+			//MathJax.Hub.setRenderer('SVG');
+			MathJax.Hub.queue.Push(['Text', equation, text]);
+			MathJax.Hub.queue.Push(showSource);
+		}
+		
+		function showSource() {
+			var glyphs = document.getElementById('MathJax_SVG_glyphs');
+			var span = document.getElementById(equation.root.inputID+'-Frame');
+			var svg = span.firstChild;
+			var svgString = '<' + '?xml version="1.0" encoding="UTF-8" standalone="no" ?' + '>\n';
+			svgString += '<svg xmlns="http://www.w3.org/2000/svg"';
+			for (var i = 0; i < svg.attributes.length; i++) svgString += ' ' + svg.attributes[i].name + '="' + svg.attributes[i].value + '"';
+			svgString += '>\n';
+			svgString += glyphs.outerHTML;
+			svgString += '\n';
+			svgString += svg.innerHTML;
+			svgString += '\n</svg>';
+
+			output.value = svgString;
+			output.setSelectionRange(0, svgString.length);
+
+			var blob = new Blob([svgString], {type: 'image/svg+xml'});
+			var url = URL.createObjectURL(blob);
+			afterPlainSVG.innerHTML = '<a href="' + url + '" download="equation.svg">Download</a>';
+			// Does not work properly yet: &nbsp; <a href="' + url + '" target="_blank">Open in new window</a>
+
+			plainSVG.innerHTML = svgString;
+			//plainSVG.innerHTML = '<img alt="Equation" src="' + url + '">';	// Does not work properly yet
+		}
+	</script>
+</div></div></div>
+
+<div class="bottom">
+	<div>
+		Updated on 2014-07-30.
+	</div>
+</div>
+
+</body>
+</html>
